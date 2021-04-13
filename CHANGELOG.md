@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.2.0...v0.3.0) (2021-04-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Rather than using misspelled Referer as name of header,
+instead use correct spelling Referrer. Clients expecting Referer will no
+longer receive that header  and will presumably not honor the new Referrer
+until updated to support this new name for this header.
+
+### Bug Fixes
+
+* correct spelling of referrer in header ([c2f3270](https://github.com/justinwilliamsrva/react-portfolio/commit/c2f327039139d1c250ac6e3e407b8bafad5375c9))
+
 ## [0.2.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.1.2...v0.2.0) (2021-04-13)
 
 
