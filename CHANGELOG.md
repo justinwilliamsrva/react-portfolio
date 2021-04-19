@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.5...v0.3.6) (2021-04-19)
+
+
+### Features
+
+* created home component - added profile, name and title ([2b2771c](https://github.com/justinwilliamsrva/react-portfolio/commit/2b2771cdbec058523e7024e1101f0a7dccafd3cf))
+
 ### [0.3.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.4...v0.3.5) (2021-04-16)
 
 ### [0.3.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.3...v0.3.4) (2021-04-16)
