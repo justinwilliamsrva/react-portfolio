@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.6...v0.3.7) (2021-04-20)
+
+
+### Features
+
+* personal side of Home icons added from figma ([33d778a](https://github.com/justinwilliamsrva/react-portfolio/commit/33d778a9633895d51aafce2a215c9c057565ea45))
+
 ### [0.3.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.5...v0.3.6) (2021-04-19)
 
 
