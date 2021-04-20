@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.8](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.7...v0.3.8) (2021-04-20)
+
+
+### Features
+
+* added biogrphy and edcuation sections with Lorem ([78949e2](https://github.com/justinwilliamsrva/react-portfolio/commit/78949e2c19e14159007104fefe5aedc62521241c))
+
 ### [0.3.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.6...v0.3.7) (2021-04-20)
 
 
