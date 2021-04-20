@@ -1,5 +1,5 @@
 :root {
-  --first-bg-color: #0e0b16;
+  --primary-bg-color: #0e0b16;
   --secondary-bg-color: teal;
 }
 
@@ -47,18 +47,18 @@ code {
 
 .home {
   display: flex;
-  background-color: var(--first-bg-color);
+  background-color: var(--primary-bg-color);
   margin-top: 85px;
   height: 500px;
   color: white;
 }
 .personal {
-  background-color: var(--first-bg-color);
+  background-color: var(--primary-bg-color);
   flex: 1;
   height: 100%;
 }
 .biography {
-  background-color: teal;
+  background-color: var(--primary-bg-color);
   flex: 2;
   height: 100%;
 }
@@ -87,4 +87,17 @@ code {
 .icons-icon {
   width: 30px;
   height: 30px;
+}
+
+#bio,
+#education {
+  display: block;
+  text-align: start;
+}
+
+.school {
+  margin: 0px 0px 15px 50px;
+}
+.school > p {
+  margin: 0;
 }
