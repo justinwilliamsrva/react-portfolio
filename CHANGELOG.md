@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.9](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.8...v0.3.9) (2021-04-22)
+
+
+### Features
+
+* Added icons to educations ([85db190](https://github.com/justinwilliamsrva/react-portfolio/commit/85db190bf536bf6b3d6430f06436d59682418d8c))
+
 ### [0.3.8](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.7...v0.3.8) (2021-04-20)
 
 
