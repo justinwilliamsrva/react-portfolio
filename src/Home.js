@@ -42,16 +42,29 @@ export default function Home() {
           <div id="education">
             <h2>Education</h2>
             <div className="school">
-              <p>
-                <b>Full Stack Developer Boot Camp</b>
-              </p>
-              <p>University of Richmond</p>
+              {/* U of R INFO */}
+              <div className="icon">
+                <img src="/ur.png" />
+              </div>
+              <div className="info">
+                <p>
+                  <b>Full Stack Developer Boot Camp</b>
+                </p>
+                <p>University of Richmond</p>
+              </div>
             </div>
+            {/* VCU INFO */}
+            <br />
             <div className="school">
-              <p>
-                <b>BA in Music Education</b>
-              </p>
-              <p>Virginia Commonwealth University</p>
+              <div className="icon">
+                <img src="/vcu.png" />
+              </div>
+              <div className="info">
+                <p>
+                  <b>BA in Music Education</b>
+                </p>
+                <p>Virginia Commonwealth University</p>
+              </div>
             </div>
           </div>
         </div>

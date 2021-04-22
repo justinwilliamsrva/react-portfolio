@@ -2,6 +2,9 @@
   --primary-bg-color: #0e0b16;
   --secondary-bg-color: teal;
 }
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -95,9 +98,15 @@ code {
   text-align: start;
 }
 
-.school {
-  margin: 0px 0px 15px 50px;
-}
-.school > p {
+.school > .info > p {
   margin: 0;
+}
+.school > .icon {
+  float: left;
+  margin-right: 20px;
+}
+.school > .icon > img {
+  height: 30px;
+  width: 30px;
+  margin: 6px 0px;
 }
