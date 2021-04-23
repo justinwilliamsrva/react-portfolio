@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.10...v0.3.11) (2021-04-23)
+
+
+### Features
+
+* Fnished Skills and start projects ([146bde8](https://github.com/justinwilliamsrva/react-portfolio/commit/146bde8956a17348e20a8570c1810535f793d3e6))
+
 ### [0.3.10](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.9...v0.3.10) (2021-04-22)
 
 ### [0.3.9](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.8...v0.3.9) (2021-04-22)
