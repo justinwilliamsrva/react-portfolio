@@ -52,8 +52,9 @@ code {
   display: flex;
   background-color: var(--primary-bg-color);
   margin-top: 85px;
-  height: 500px;
+  /* height: 500px; */
   color: white;
+  padding-bottom: 20px;
 }
 .personal {
   background-color: var(--primary-bg-color);
@@ -109,4 +110,26 @@ code {
   height: 30px;
   width: 30px;
   margin: 6px 0px;
+}
+
+/* Skills */
+#skills {
+  /* display: flex;
+  justify-content: space-between; */
+  /* height: 500px; */
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+}
+.section-header {
+  /* text-align: center; */
+  margin: 0;
+  padding: 20px;
+}
+
+#skills-desc {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.skills-section > img {
+  width: 100px;
 }

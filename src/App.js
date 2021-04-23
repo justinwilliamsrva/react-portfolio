@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <div className="content">
         <Home />
+        <Skills />
       </div>
     </div>
   );
