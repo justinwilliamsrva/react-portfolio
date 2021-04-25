@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.11...v0.3.12) (2021-04-25)
+
+
+### Features
+
+* Added projects cards with reverse images ([854c096](https://github.com/justinwilliamsrva/react-portfolio/commit/854c0966eec55da1313567c4dd991f7bf2b539e1))
+
 ### [0.3.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.10...v0.3.11) (2021-04-23)
 
 
