@@ -68,11 +68,13 @@ code {
 }
 
 #profile {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   border-radius: 50%;
   margin: 30px 30px 0px 30px;
+  overflow: hidden;
 }
+
 .personal > h2 {
   margin-top: 5px;
   margin-bottom: 0;
@@ -132,4 +134,42 @@ code {
 }
 .skills-section > img {
   width: 100px;
+}
+/* PROJECTS */
+
+#projects {
+  display: block;
+  justify-content: center;
+  background-color: var(--primary-bg-color);
+
+  /* height: 500px; */
+  color: white;
+  padding-bottom: 20px;
+}
+.project-card,
+.project-card-reverse {
+  border: 1px var(--secondary-bg-color) solid;
+  border-radius: 20px;
+  max-width: 70vw;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.project-card-reverse {
+  flex-direction: row;
+}
+
+.card-left {
+  flex: 1;
+  overflow: hidden;
+}
+.card-right {
+  flex: 1;
+  text-align: center;
+}
+.project-image {
+  height: 100%;
+  width: 100%;
 }

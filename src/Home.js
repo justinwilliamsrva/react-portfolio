@@ -4,7 +4,10 @@ export default function Home() {
   return (
     <div className="home">
       <div className="personal">
+        {/* <div id="profile"> */}
         <img id="profile" src="/Justin-min.jpg" />
+        {/* </div> */}
+
         <h2>Justin Williams</h2>
         <h3>Full-Stack Web Developer</h3>
         <div id="icons">
