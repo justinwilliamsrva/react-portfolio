@@ -151,7 +151,7 @@ code {
   border: 1px var(--secondary-bg-color) solid;
   border-radius: 20px;
   max-width: 70vw;
-  height: 300px;
+  /* height: 300px; */
   display: flex;
   margin: 0 auto;
   overflow: hidden;
@@ -162,14 +162,49 @@ code {
 }
 
 .card-left {
-  flex: 1;
+  flex: 1.5;
   overflow: hidden;
 }
 .card-right {
-  flex: 1;
+  flex: 2;
   text-align: center;
 }
 .project-image {
   height: 100%;
   width: 100%;
+}
+
+.tech-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.tech {
+  border: 1px white solid;
+  margin: 5px;
+  background-color: var(--secondary-bg-color);
+}
+.project-link-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.project-link {
+  border: 1px white solid;
+  margin: 5px;
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
+  color: white;
+}
+.project-link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.project-link:hover {
+  background-color: var(--primary-bg-color);
 }
