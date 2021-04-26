@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.13](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.12...v0.3.13) (2021-04-26)
+
+
+### Features
+
+* in Projects - added a map over techs and added links for site and github ([e70f05a](https://github.com/justinwilliamsrva/react-portfolio/commit/e70f05ad2aaf5671f3bd9de2d9b30a21ac23e161))
+
 ### [0.3.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.11...v0.3.12) (2021-04-25)
 
 
