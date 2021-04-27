@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.14](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.13...v0.3.14) (2021-04-27)
+
+
+### Features
+
+* added a Music Section and images ([888af2b](https://github.com/justinwilliamsrva/react-portfolio/commit/888af2b4585c03f8cee2d419c2e0c463581576c0))
+
 ### [0.3.13](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.12...v0.3.13) (2021-04-26)
 
 
