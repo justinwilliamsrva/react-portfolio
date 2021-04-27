@@ -4,6 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Skills from "./Skills";
 import { ProjectList } from "./Projects/ProjectList";
+import Music from "./Music/Music";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Skills />
         <ProjectList />
+        <Music />
       </div>
     </div>
   );
