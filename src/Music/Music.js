@@ -45,11 +45,12 @@ const videos = [
 
   {
     id: 6,
-    song: "asdasd",
-    composer: "asdas",
-    date: "asdasdad",
-    photo: "/MV-Arise-my-soul.jpg",
-    link: "https://vimeo.com/236775991",
+    song: "Chesterfield Observer Article",
+    composer: "Rich Griset",
+    date: "February 7, 2018",
+    photo: "/article.jpg",
+    link:
+      "https://www.chesterfieldobserver.com/articles/at-clover-hill-a-youth-string-orchestra-preps-for-its-debut/",
   },
 ];
 
