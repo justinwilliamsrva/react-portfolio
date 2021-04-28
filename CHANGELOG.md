@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.17](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.16...v0.3.17) (2021-04-28)
+
+
+### Features
+
+* added a footer ([b19771d](https://github.com/justinwilliamsrva/react-portfolio/commit/b19771df7afb284eea35b1c809a8d23b7108aa20))
+
 ### [0.3.16](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.15...v0.3.16) (2021-04-28)
 
 
