@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.16](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.15...v0.3.16) (2021-04-28)
+
+
+### Bug Fixes
+
+* changed z-index fo nav to 10 ([d5be58f](https://github.com/justinwilliamsrva/react-portfolio/commit/d5be58fec40ef47e03a455d2fe684a6df404985e))
+
 ### [0.3.15](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.14...v0.3.15) (2021-04-28)
 
 ### [0.3.14](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.13...v0.3.14) (2021-04-27)
