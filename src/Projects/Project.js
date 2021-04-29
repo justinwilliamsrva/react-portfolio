@@ -13,18 +13,15 @@ export default function Project({ props }) {
           </div>
           <div className="card-right">
             <h3>{props.title}</h3>
-            <ul className="project-link-list">
-              <li className="project-link">
-                <a href={props.link} target="_blank">
-                  Check it Out
-                </a>
-              </li>
-              <li className="project-link">
-                <a href={props.github} target="_blank">
-                  Github
-                </a>
-              </li>
-            </ul>
+            <div className="project-link-list">
+              <a className="project-link" href={props.link} target="_blank">
+                Check it Out
+              </a>
+
+              <a className="project-link" href={props.github} target="_blank">
+                Github
+              </a>
+            </div>
             <p>{props.description}</p>
 
             <ul className="tech-list">
@@ -38,7 +35,15 @@ export default function Project({ props }) {
         <div className="project-card-reverse">
           <div className="card-right">
             <h3>{props.title}</h3>
+            <div className="project-link-list">
+              <a className="project-link" href={props.link} target="_blank">
+                Check it Out
+              </a>
 
+              <a className="project-link" href={props.github} target="_blank">
+                Github
+              </a>
+            </div>
             <p>{props.description}</p>
             <ul className="tech-list">
               {techs.map((tech) => (

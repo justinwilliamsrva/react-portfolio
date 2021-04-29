@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Spirited Scenery",
     description:
-      "Explore your city's culture confidently with the Spirited Scenery App! Use our app to easily find local art museums and breweries! In addition, the app considers your local weather conditions and offers advice on how to whether you should venture on foot or wear a coat on your travels. If you're an art sophisticate, critic, a bar crawler or all of the above, we've got you covered!",
+      "Explore your city's culture confidently with the Spirited Scenery App! Use our app to easily find local art museums and breweries! In addition, the app considers your local weather conditions and offers advice on how to whether you should venture on foot or wear a coat on your travels.",
     img: "/Spirted.JPG",
     techs: ["JQuery", "Material-UI", "AJAX"],
     link: "https://justinwilliamsrva.github.io/Spirited-Scenery/",
