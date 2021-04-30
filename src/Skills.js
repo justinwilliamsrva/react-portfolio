@@ -18,7 +18,7 @@ export default function Skills() {
         <div className="skills-section" id="back-end">
           <img src="/server.svg" />
           <h3>Back-End</h3>
-          <p>Node.js, Express, MongoDB, MySql, NPM </p>
+          <p>Node.js, Express, MongoDB, MySql, NPM, Postman </p>
         </div>
         <div className="skills-section" id="additional">
           <img src="/list.svg" />
