@@ -270,7 +270,8 @@ code {
   background-color: var(--primary-bg-color);
   color: white;
 }
-input[type="text"],
+input[type="email"],
+input[type="name"],
 select,
 textarea {
   width: 100%; /* Full width */
@@ -284,7 +285,7 @@ textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type="submit"] {
+button[type="submit"] {
   background-color: var(--primary-bg-color);
   color: var(--secondary-bg-color);
   border: 1px var(--secondary-bg-color) solid;
@@ -295,23 +296,62 @@ input[type="submit"] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type="submit"]:hover {
+button[type="submit"]:hover {
   background-color: var(--secondary-bg-color);
   color: white;
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.container-contact {
   border-radius: 5px;
   /* background-color: #f2f2f2; */
   padding: 20px;
   max-width: 70vw;
   margin: 0 auto;
 }
+#contact-from > #submit {
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+#status.success {
+  background-color: #4caf50;
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  background-color: firebrick;
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 /* Footer */
 #footer {
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   color: white;
+  padding: 15px;
 }
 
 #footer > a {
