@@ -9,7 +9,7 @@ export default function Footer() {
       <>
         <div className="section-header" id="contact">
           <div className="container-contact">
-            <h3>Contact Form</h3>
+            <h2>Contact Form</h2>
             <form onSubmit={handleSubmit}>
               <label htmlFor="name"></label>
               <input type="name" id="name" name="name" placeholder="Name" />
@@ -61,8 +61,10 @@ export default function Footer() {
   return (
     <>
       <div className="section-header" id="contact">
+        <span id="contacts"></span>
+
         <div className="container-contact">
-          <h3>Contact Form</h3>
+          <h2>Contact Form</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="name"></label>
             <input type="name" id="name" name="name" placeholder="Name" />

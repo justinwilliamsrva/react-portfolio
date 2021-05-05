@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div id="home">
       <div className="personal">
         {/* <div id="profile"> */}
         <img id="profile" src="/Justin-min.jpg" />

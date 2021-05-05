@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div id="skills">
-      <h2 className="section-header">Skills</h2>
+    <div className="section-header" id="skills">
+      <span id="skillet"></span>
+      <h2>Skills</h2>
       <div id="skills-desc">
         <div className="skills-section" id="front-end">
           <img src="/responsive.svg" />

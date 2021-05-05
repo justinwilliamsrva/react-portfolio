@@ -31,14 +31,13 @@ const projects = [
 ];
 export function ProjectList() {
   return (
-    <div>
-      <div className="section-header" id="projects">
-        <h2>Projects</h2>
+    <div className="section-header" id="projects">
+      <span id="project"></span>
+      <h2>Projects</h2>
 
-        {projects.map((project) => (
-          <Project key={project.id} props={project} />
-        ))}
-      </div>
+      {projects.map((project) => (
+        <Project key={project.id} props={project} />
+      ))}
     </div>
   );
 }

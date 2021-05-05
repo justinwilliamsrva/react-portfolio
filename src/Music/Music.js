@@ -57,6 +57,7 @@ const videos = [
 export default function Music() {
   return (
     <div className="section-header" id="music">
+       <span id="musics"></span>
       <h2>Music</h2>
       <div id="music-videos">
         {videos.map((video) => (
