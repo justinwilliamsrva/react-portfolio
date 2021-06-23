@@ -1,6 +1,7 @@
 :root {
-  --primary-bg-color: #0e0b16;
+  --primary-bg-color: snow;
   --secondary-bg-color: teal;
+  --text-color: #343434;
 }
 * {
   box-sizing: border-box;
@@ -24,19 +25,20 @@ code {
 }
 
 .header {
-  background-color: #0e0b16;
+  background-color: var(--primary-bg-color);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
   /* height: 30px; */
 }
 .header-content {
   margin: 0px 200px 0px 200px;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: var(--text-color);
   padding: 0px, 10px, 10px, 10px;
   /* max-width: 50%; */
 }
@@ -44,10 +46,22 @@ code {
 .header-content > h3 {
   padding: 22px 0px 10px 0px;
   margin: 10px 0px 10px 0px;
+  color: var(--text-color);
 
   display: inline;
 }
 
+.header-content > h3 > a {
+  color: var(--text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+.header-content > h3 > a:hover {
+  color: var(--secondary-bg-color);
+}
+.header-content > h3 > a:active {
+  color: var(--secondary-bg-color);
+}
 #content {
   padding-top: 75px;
 }
@@ -57,7 +71,7 @@ code {
   background-color: var(--primary-bg-color);
   /* margin-top: 85px; */
   /* height: 500px; */
-  color: white;
+  color: var(--text-color);
   padding-bottom: 20px;
 }
 .personal {
@@ -152,7 +166,7 @@ code {
   background-color: var(--primary-bg-color);
 
   /* height: 500px; */
-  color: white;
+  color: black;
   padding-bottom: 20px;
   position: relative;
 }
@@ -165,23 +179,25 @@ code {
   border: 1px var(--secondary-bg-color) solid;
   border-radius: 20px;
   max-width: 70vw;
-  /* height: 300px; */
+  height: 300px;
   display: flex;
   margin: 0 auto;
   overflow: hidden;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
 }
 .project-card-reverse {
   flex-direction: row;
 }
 
 .card-left {
-  flex: 1.5;
+  flex: 1;
   overflow: hidden;
 }
 .card-right {
-  flex: 2;
+  flex: 1;
   text-align: center;
+  background-color: lightslategray;
 }
 .project-image {
   height: 100%;

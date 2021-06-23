@@ -15,7 +15,14 @@ export default function Header() {
             <a href="#project">Projects</a>
           </h3>
           <h1 className="name">Justin Williams</h1>
-          <h3>Resume</h3>
+          <h3>
+            <a
+              href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
+              target="_blank"
+              rel="noreferrer">
+              Resume
+            </a>
+          </h3>
           <h3>
             <a href="#musics">Music</a>
           </h3>

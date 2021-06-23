@@ -19,12 +19,12 @@ export default function Skills() {
         <div className="skills-section" id="back-end">
           <img src="/server.svg" />
           <h3>Back-End</h3>
-          <p>Node.js, Express, MongoDB, MySql, NPM, Postman </p>
+          <p>Node, Express, MongoDB, MySql, NPM, Postman </p>
         </div>
         <div className="skills-section" id="additional">
           <img src="/list.svg" />
           <h3>Additional</h3>
-          <p>Version Control, JWT, GIT, Jest, Notion </p>
+          <p>Version Control, JWT, GIT, Jest, Notion, Conventional Commits </p>
         </div>
       </div>
     </div>
