@@ -166,7 +166,7 @@ code {
   background-color: var(--primary-bg-color);
 
   /* height: 500px; */
-  color: black;
+  color: var(--text-color);
   padding-bottom: 20px;
   position: relative;
 }
@@ -197,7 +197,7 @@ code {
 .card-right {
   flex: 1;
   text-align: center;
-  background-color: lightslategray;
+  background-color: #cccccc;
 }
 .project-image {
   height: 100%;
@@ -212,7 +212,7 @@ code {
   padding: 0;
 }
 .tech {
-  border: 1px white solid;
+  border: 1px solid var(--primary-bg-color);
   margin: 5px;
   background-color: var(--secondary-bg-color);
 }
@@ -225,22 +225,18 @@ code {
 }
 .project-link {
   background-color: var(--primary-bg-color);
-  color: var(--secondary-bg-color);
+  color: var(--text-color);
   border: 1px var(--secondary-bg-color) solid;
   border-radius: 4px;
-
+  text-decoration: none;
   margin: 5px;
 
   cursor: pointer;
 }
-.project-link {
-  text-decoration: none;
-  color: var(--secondary-bg-color);
-}
 
 .project-link:hover {
   background-color: var(--secondary-bg-color);
-  color: white;
+  color: var(--primary-bg-color);
 }
 
 /* MUSIC */
@@ -301,7 +297,7 @@ code {
   border-radius: 4px;
 }
 .text:hover {
-  background-color: var(--secondary-bg-color);
+  background-color: var(--text-color);
   color: white;
 }
 
@@ -309,10 +305,10 @@ code {
 
 #contact {
   background-color: var(--primary-bg-color);
-  color: white;
+  color: var(--text-color);
   position: relative;
 }
-#project {
+#contacts {
   position: absolute;
   top: -75px;
 }
@@ -322,15 +318,19 @@ select,
 textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
+  border: 1px solid var(--text-color); /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+  font-size: 18px;
+  color: var(--text-color);
 }
+/* input:focus {
+  background-color: var(--secondary-bg-color);
+} */
 
 /* Style the submit button with a specific background color etc */
 button[type="submit"] {
@@ -346,7 +346,7 @@ button[type="submit"] {
 /* When moving the mouse over the submit button, add a darker green color */
 button[type="submit"]:hover {
   background-color: var(--secondary-bg-color);
-  color: white;
+  color: var(--primary-bg-color);
 }
 
 /* Add a background color and some padding around the form */
