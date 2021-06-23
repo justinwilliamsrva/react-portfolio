@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.3.21](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.20...v0.3.21) (2021-06-23)
+
+
+### Bug Fixes
+
+* Fixes smooth scroll for contact ([e3c0335](https://github.com/justinwilliamsrva/react-portfolio/commit/e3c0335f31e182b729a455cee06d1c02fa84e247))
+
 ### [0.3.20](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.19...v0.3.20) (2021-06-23)
 
 ### [0.3.19](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.3.18...v0.3.19) (2021-05-01)
