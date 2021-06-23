@@ -24,7 +24,7 @@ export default function Skills() {
         <div className="skills-section" id="additional">
           <img src="/list.svg" />
           <h3>Additional</h3>
-          <p>Version Control, JWT, GIT, Jest, Notion, Conventional Commits </p>
+          <p>Version Control, JWT, GIT, Jest, Conventional Commits </p>
         </div>
       </div>
     </div>
