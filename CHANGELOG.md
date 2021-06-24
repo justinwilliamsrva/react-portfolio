@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.8](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.7...v0.4.8) (2021-06-24)
+
+
+### Features
+
+* Added currently learning list to home page ([a2f3d9f](https://github.com/justinwilliamsrva/react-portfolio/commit/a2f3d9f35ded912a77edbbc3b43947af22745f4c))
+
 ### [0.4.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.6...v0.4.7) (2021-06-24)
 
 
