@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.4...v0.4.5) (2021-06-24)
+
+
+### Bug Fixes
+
+* gave the college icons the correct styling ([e011dbc](https://github.com/justinwilliamsrva/react-portfolio/commit/e011dbcbbb8a629bf95972efedfda899e0f276a1))
+
 ### [0.4.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.3...v0.4.4) (2021-06-24)
 
 ### [0.4.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.2...v0.4.3) (2021-06-24)
