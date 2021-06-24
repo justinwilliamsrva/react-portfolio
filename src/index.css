@@ -118,7 +118,12 @@ code {
   display: block;
   text-align: start;
 }
-
+#love {
+  background: var(--secondary-bg-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
 .school > .info > p {
   margin: 0;
 }

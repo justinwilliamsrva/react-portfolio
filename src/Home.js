@@ -22,22 +22,24 @@ export default function Home() {
           <h2>Biography</h2>
           <p>
             <b>
-              Proident veniam sunt elit Lorem sit ullamco. Reprehenderit ex
-              deserunt magna officia cillum qui. Non sint culpa cupidatat duis
-              ad in proident magna nulla minim consequat elit. Non et laborum
-              anim amet sint Lorem velit mollit elit reprehenderit excepteur.
-              Aute veniam sunt occaecat tempor ut voluptate.
+              Full-Stack Web Developer with over ten years of experience in
+              primary and secondary education. As a former teacher, I am eager
+              to combine my leadership and organizational skills with my love
+              for programming to make appealing, engaging, and robust web
+              applications.
             </b>
           </p>
           <p>
             <b>
-              Voluptate officia eu ut excepteur nisi eu excepteur aliquip eu
-              officia non enim incididunt. Dolor culpa excepteur reprehenderit
-              qui tempor eu sunt eu excepteur excepteur aute minim. Magna magna
-              anim reprehenderit aute reprehenderit nisi ea. Occaecat tempor
-              magna veniam exercitation consequat officia enim consequat ea. Id
-              do eiusmod minim consequat nostrud elit aute consectetur elit.
-              Duis consequat id voluptate veniam consequat.
+              I <span id="love">LOVE</span> programming and am eager to join a
+              team of professionals solving problems together. As a University
+              of Richmond Coding Boot Camp Graduate, I have the technical skills
+              to approach front-end and back-end challenges independently or
+              with a team of AGILE programmers. And as a former educator, I am
+              an experienced presenter whose reliability and communication
+              skills will benefit any workplace environment. In my spare time, I
+              am working on a daily scheduler in React Native and a social media
+              site in Next.js
             </b>
           </p>
         </div>
