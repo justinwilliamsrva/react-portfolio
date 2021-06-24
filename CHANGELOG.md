@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.6...v0.4.7) (2021-06-24)
+
+
+### Bug Fixes
+
+* minor changes to text color and spacing in Home ([b08a559](https://github.com/justinwilliamsrva/react-portfolio/commit/b08a5592b93e52efc71c23b092a6647628726c09))
+
 ### [0.4.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.5...v0.4.6) (2021-06-24)
 
 
