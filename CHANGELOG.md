@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.10](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.9...v0.4.10) (2021-06-24)
+
+
+### Features
+
+* added links to social meida icons ([cba6c14](https://github.com/justinwilliamsrva/react-portfolio/commit/cba6c144ae6c6eeb386de8b9e994b7a2d413f440))
+
 ### [0.4.9](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.8...v0.4.9) (2021-06-24)
 
 ### [0.4.8](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.7...v0.4.8) (2021-06-24)
