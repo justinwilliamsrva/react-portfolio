@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </div>
           {/* VCU INFO */}
-          <br />
+
           <div className="school">
             <div className="vcu-icon">
               <img id="vcu" src="/vcu.png" />

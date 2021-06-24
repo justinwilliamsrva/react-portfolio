@@ -84,7 +84,9 @@ code {
   flex: 2;
   height: 100%;
 }
-
+.biography h2 {
+  margin-bottom: 5px;
+}
 #profile {
   height: 300px;
   width: 300px;
@@ -94,7 +96,7 @@ code {
 }
 
 .personal > h2 {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 0;
 }
 
