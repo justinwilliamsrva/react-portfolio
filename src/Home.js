@@ -44,31 +44,41 @@ export default function Home() {
           </p>
         </div>
         <div id="education">
-          <h2>Education</h2>
-          <div className="school">
-            {/* U of R INFO */}
-            <div className="icon">
-              <img id="uor" src="/ur.png" />
+          <div id="education-ed">
+            <h2>Education</h2>
+            <div className="school">
+              {/* U of R INFO */}
+              <div className="icon">
+                <img id="uor" src="/ur.png" />
+              </div>
+              <div className="info">
+                <p>
+                  <b>Full Stack Developer Boot Camp</b>
+                </p>
+                <p>University of Richmond</p>
+              </div>
             </div>
-            <div className="info">
-              <p>
-                <b>Full Stack Developer Boot Camp</b>
-              </p>
-              <p>University of Richmond</p>
+            {/* VCU INFO */}
+            <br />
+            <div className="school">
+              <div className="vcu-icon">
+                <img id="vcu" src="/vcu.png" />
+              </div>
+              <div className="info">
+                <p>
+                  <b>BA in Music Education</b>
+                </p>
+                <p>Virginia Commonwealth University</p>
+              </div>
             </div>
           </div>
-          {/* VCU INFO */}
-          <br />
-          <div className="school">
-            <div className="vcu-icon">
-              <img id="vcu" src="/vcu.png" />
-            </div>
-            <div className="info">
-              <p>
-                <b>BA in Music Education</b>
-              </p>
-              <p>Virginia Commonwealth University</p>
-            </div>
+          <div id="education-learn">
+            <h2>Currently Learning</h2>
+            <ul id="current-learn">
+              <li>Data Structures</li>
+              <li>SASS</li>
+              <li>Figma</li>
+            </ul>
           </div>
         </div>
       </div>

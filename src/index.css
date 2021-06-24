@@ -87,6 +87,7 @@ code {
 .biography h2 {
   margin-bottom: 5px;
 }
+
 #profile {
   height: 300px;
   width: 300px;
@@ -115,11 +116,27 @@ code {
   height: 30px;
 }
 
-#bio,
-#education {
+#bio {
   display: block;
   text-align: start;
 }
+#education {
+  display: flex;
+  text-align: start;
+}
+
+#education > div {
+  flex: 1;
+}
+
+#current-learn {
+  margin-top: 0;
+}
+#current-learn > li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
 #love {
   background: var(--secondary-bg-color);
   -webkit-background-clip: text;
