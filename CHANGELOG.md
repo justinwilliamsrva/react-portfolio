@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.10...v0.4.11) (2021-06-24)
+
+
+### Bug Fixes
+
+* minor changes to home page ([69bdc16](https://github.com/justinwilliamsrva/react-portfolio/commit/69bdc167421754a41b238a446ea1f2e4557dcdb4))
+
 ### [0.4.10](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.9...v0.4.10) (2021-06-24)
 
 
