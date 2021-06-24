@@ -85,7 +85,7 @@ code {
   height: 100%;
 }
 .biography h2 {
-  margin-bottom: 5px;
+  margin: 10px 0px;
 }
 
 #profile {
@@ -138,10 +138,8 @@ code {
 }
 
 #love {
-  background: var(--secondary-bg-color);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: center;
+  color: var(--secondary-bg-color);
+  font-weight: bolder;
 }
 .school > .info > p {
   margin: 0;

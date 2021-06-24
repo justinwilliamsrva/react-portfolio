@@ -31,7 +31,7 @@ export default function Home() {
           </p>
           <p>
             <b>
-              I <span id="love">LOVE</span> programming and am eager to join a
+              I <span id="love">love</span> programming and am eager to join a
               team of professionals solving problems together. As a University
               of Richmond Coding Boot Camp Graduate, I have the technical skills
               to approach front-end and back-end challenges independently or
