@@ -11,19 +11,29 @@ export default function Home() {
         <h2>Justin Williams</h2>
         <h3>Full-Stack Web Developer</h3>
         <div id="icons">
-          <a href="mailto:justinwdev@gmail.com" target="_blank">
-            <img className="icons-icon" src="/mail_icon.png" />
+          <a
+            href="mailto:justinwdev@gmail.com"
+            target="_blank"
+            rel="noreferrer">
+            <img className="icons-icon" src="/mail_icon.png" alt="email" />
           </a>
-          <a href="https://github.com/justinwilliamsrva" target="_blank">
-            <img className="icons-icon" src="/github.png" />
+          <a
+            href="https://github.com/justinwilliamsrva"
+            target="_blank"
+            rel="noreferrer">
+            <img className="icons-icon" src="/github.png" alt="github" />
           </a>
-          <a href="https://twitter.com/jwRVAdev" target="_blank">
-            <img className="icons-icon" src="/twitter.png" />
+          <a
+            href="https://twitter.com/jwRVAdev"
+            target="_blank"
+            rel="noreferrer">
+            <img className="icons-icon" src="/twitter.png" alt="twitter" />
           </a>
           <a
             href="https://www.linkedin.com/in/justinwilliamsrva/"
-            target="_blank">
-            <img className="icons-icon" src="/linkedin.png" />
+            target="_blank"
+            rel="noreferrer">
+            <img className="icons-icon" src="/linkedin.png" alt="LinkedIn" />
           </a>
         </div>
       </div>
@@ -41,14 +51,14 @@ export default function Home() {
           </p>
           <p>
             <b>
-              I <span id="love">love</span> programming and am eager to join a
-              team of professionals solving problems together. As a University
-              of Richmond Coding Boot Camp Graduate, I have the technical skills
-              to approach front-end and back-end challenges independently or
-              with a team of AGILE programmers. And as a former educator, I am
-              an experienced presenter whose reliability and communication
-              skills will benefit any workplace environment. In my spare time, I
-              am working on a daily scheduler in React Native and a social media
+              I <span id="love">love</span> programming and I am gifted at
+              resolving problems and learning new skills. As a University of
+              Richmond Coding Boot Camp Graduate, I have the technical skills to
+              approach front-end and back-end challenges independently or with a
+              team of AGILE programmers. And as a former educator, I am an
+              experienced presenter whose reliability and communication skills
+              will benefit any workplace environment. In my spare time, I am
+              working on a daily scheduler in React Native and a social media
               site in Next.js
             </b>
           </p>
