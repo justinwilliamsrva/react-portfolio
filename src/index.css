@@ -129,11 +129,22 @@ code {
 }
 .school > .icon {
   float: left;
-  margin-right: 20px;
+  margin: 0px 25px;
 }
-.school > .icon > img {
+
+.school > .vcu-icon {
+  float: left;
+  margin: 0px 5px;
+}
+.school > .icon > #uor {
   height: 30px;
   width: 30px;
+  margin: 6px 0px;
+}
+
+.school > .vcu-icon > #vcu {
+  height: 30px;
+  width: 69px;
   margin: 6px 0px;
 }
 

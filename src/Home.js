@@ -48,7 +48,7 @@ export default function Home() {
           <div className="school">
             {/* U of R INFO */}
             <div className="icon">
-              <img src="/ur.png" />
+              <img id="uor" src="/ur.png" />
             </div>
             <div className="info">
               <p>
@@ -60,8 +60,8 @@ export default function Home() {
           {/* VCU INFO */}
           <br />
           <div className="school">
-            <div className="icon">
-              <img src="/vcu.png" />
+            <div className="vcu-icon">
+              <img id="vcu" src="/vcu.png" />
             </div>
             <div className="info">
               <p>
