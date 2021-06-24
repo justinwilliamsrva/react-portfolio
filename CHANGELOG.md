@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.12...v0.5.0) (2021-06-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* changed colors
+
+### Features
+
+* changed colors ([a2c860d](https://github.com/justinwilliamsrva/react-portfolio/commit/a2c860dfc3922c0730a8022abdd23f323c2b58a9))
+
 ### [0.4.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.11...v0.4.12) (2021-06-24)
 
 ### [0.4.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.10...v0.4.11) (2021-06-24)
