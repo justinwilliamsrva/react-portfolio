@@ -22,11 +22,11 @@ export default function Home() {
           <h2>Biography</h2>
           <p>
             <b>
-              Full-Stack Web Developer with over ten years of experience in
-              primary and secondary education. As a former teacher, I am eager
-              to combine my leadership and organizational skills with my love
-              for programming to make appealing, engaging, and robust web
-              applications.
+              <span id="love">Full-Stack Web Developer</span> with over ten
+              years of experience in primary and secondary education. As a
+              former teacher, I am eager to combine my leadership and
+              organizational skills with my love for programming to make
+              appealing, engaging, and robust web applications.
             </b>
           </p>
           <p>
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
           </div>
           {/* VCU INFO */}
-
+          <br />
           <div className="school">
             <div className="vcu-icon">
               <img id="vcu" src="/vcu.png" />
