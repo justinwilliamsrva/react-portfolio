@@ -11,10 +11,7 @@ export default function Home() {
         <h2>Justin Williams</h2>
         <h3>Full-Stack Web Developer</h3>
         <div id="icons">
-          <a
-            href="mailto:justinwdev@gmail.com"
-            target="_blank"
-            rel="noreferrer">
+          <a href="mailto:justinwdev@gmail.com">
             <img className="icons-icon" src="/mail_icon.png" alt="email" />
           </a>
           <a
