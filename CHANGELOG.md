@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.2...v0.4.3) (2021-06-24)
+
+
+### Bug Fixes
+
+* new profile picture ([8c04e36](https://github.com/justinwilliamsrva/react-portfolio/commit/8c04e36663492ecbc4b7a3ac3793203dd6d693bd))
+
 ### [0.4.2](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.1...v0.4.2) (2021-06-24)
 
 ### [0.4.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.0...v0.4.1) (2021-06-24)
