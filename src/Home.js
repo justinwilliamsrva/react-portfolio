@@ -11,10 +11,20 @@ export default function Home() {
         <h2>Justin Williams</h2>
         <h3>Full-Stack Web Developer</h3>
         <div id="icons">
-          <img className="icons-icon" src="/mail_icon.png" />
-          <img className="icons-icon" src="/github.png" />
-          <img className="icons-icon" src="/twitter.png" />
-          <img className="icons-icon" src="/linkedin.png" />
+          <a href="mailto:justinwdev@gmail.com" target="_blank">
+            <img className="icons-icon" src="/mail_icon.png" />
+          </a>
+          <a href="https://github.com/justinwilliamsrva" target="_blank">
+            <img className="icons-icon" src="/github.png" />
+          </a>
+          <a href="https://twitter.com/jwRVAdev" target="_blank">
+            <img className="icons-icon" src="/twitter.png" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/justinwilliamsrva/"
+            target="_blank">
+            <img className="icons-icon" src="/linkedin.png" />
+          </a>
         </div>
       </div>
       <div className="biography">
