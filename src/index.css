@@ -239,12 +239,13 @@ h1 {
 .section-header {
   /* text-align: center; */
   margin: 0;
-  padding: 20px;
+  padding: 20px 20px 50px 20px;
 }
 
 #skills-desc {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  margin: 70px 0px;
 }
 .skills-section > img {
   width: 100px;
@@ -253,6 +254,10 @@ h1 {
   -ms-transition: -ms-transform 0.7s;
   -o-transition: -o-transform 0.7s;
   transition: transform 0.7s;
+}
+
+.skills-section p {
+  font-weight: 500;
 }
 .skills-section > img:hover {
   -webkit-transform: scale(1.3, 1.3);
@@ -442,11 +447,13 @@ h1 {
   background-color: var(--primary-bg-color);
   color: var(--text-color);
   position: relative;
+  padding-bottom: 30px;
 }
 #contacts {
   position: absolute;
   top: -75px;
 }
+
 input[type="email"],
 input[type="name"],
 select,
@@ -488,7 +495,7 @@ button[type="submit"]:hover {
 .container-contact {
   border-radius: 5px;
   /* background-color: #f2f2f2; */
-  padding: 20px;
+
   max-width: 70vw;
   margin: 0 auto;
 }
