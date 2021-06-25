@@ -380,20 +380,26 @@ h1 {
 
 #music-videos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0px 30vh;
 }
 
 .container {
   position: relative;
-  margin: 5px;
+  margin: 10px;
+}
+
+.container h3 {
+  margin-top: 0;
 }
 .image {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
+  height: 45vh;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .middle {
@@ -419,15 +425,15 @@ h1 {
   background-color: var(--primary-bg-color);
 
   color: var(--secondary-bg-color);
-  border: 1px var(--secondary-bg-color) solid;
+  border: 1px var(--primary-bg-color) solid;
   font-size: 16px;
   padding: 12px 20px;
   text-decoration: none;
   border-radius: 4px;
+  font-weight: bold;
 }
 .text:hover {
   background-color: var(--text-color);
-  color: white;
 }
 
 /* Contact */
