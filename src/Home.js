@@ -55,8 +55,8 @@ export default function Home() {
               team of AGILE programmers. And as a former educator, I am an
               experienced presenter whose reliability and communication skills
               will benefit any workplace environment. In my spare time, I am
-              working on a daily scheduler in React Native and a social media
-              site in Next.js
+              working on a daily scheduler in React Native and a park database
+              in Next.js
             </b>
           </p>
         </div>
@@ -95,6 +95,7 @@ export default function Home() {
               <li>Data Structures</li>
               <li>SASS</li>
               <li>Figma</li>
+              <li>React Native</li>
             </ul>
           </div>
         </div>
