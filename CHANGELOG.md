@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.6...v0.6.0) (2021-06-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* New favicons
+
+### Features
+
+* New favicons ([d33e0f0](https://github.com/justinwilliamsrva/react-portfolio/commit/d33e0f02574d619d9231c0f241ac6bf473d3ee0a))
+
 ### [0.5.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.5...v0.5.6) (2021-06-25)
 
 ### [0.5.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.4...v0.5.5) (2021-06-25)
