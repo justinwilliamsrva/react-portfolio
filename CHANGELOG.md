@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.0...v0.5.1) (2021-06-25)
+
+
+### Features
+
+* change nav links to have ccs animations ([76cb6cb](https://github.com/justinwilliamsrva/react-portfolio/commit/76cb6cb16a3b84bf3de5294d709c20e16338f2ff))
+
+
+### Bug Fixes
+
+* change marign on biography heading ([de50acb](https://github.com/justinwilliamsrva/react-portfolio/commit/de50acba42229895f83e0e9f437c2513f5a7dbdb))
+* Changed spacing in Currently Learning on home page ([a93594a](https://github.com/justinwilliamsrva/react-portfolio/commit/a93594a159e67e54d7046b7b681940f7409b6070))
+
 ## [0.5.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.4.12...v0.5.0) (2021-06-24)
 
 
