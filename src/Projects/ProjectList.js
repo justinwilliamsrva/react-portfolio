@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Spirited Scenery",
     description:
-      "Explore your city's culture confidently with the Spirited Scenery App! Use our app to easily find local art museums and breweries! In addition, the app considers your local weather conditions and offers advice on how to whether you should venture on foot or wear a coat on your travels.",
+      "Use our app to easily find local art pieces and breweries! In addition, the app considers your local weather conditions and offers advice on whether you should venture on foot or wear a coat on your travels.",
     img: "/Spirted.JPG",
     techs: ["JQuery", "Material-UI", "AJAX"],
     link: "https://justinwilliamsrva.github.io/Spirited-Scenery/",
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "Orchestra RPG",
     description:
-      "Created to motivate orchestra students to learn scales, shifting and bow technique during mandated virtual learningStudents can login to profile, turn-in assignments, receive teacher feedback, compare progress to the rest of the class.",
+      "Users can learn scales, shifting and bow technique during mandated virtual learningStudents can login to profile, turn-in assignments, receive teacher feedback, compare progress to the rest of the class.",
     img: "rpg-photo.JPG",
     techs: ["HTML", "CSS", "JavaScript"],
     link: "https://cavorch.org/orchestra/rpg.html",

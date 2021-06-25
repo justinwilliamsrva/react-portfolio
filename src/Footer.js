@@ -99,8 +99,8 @@ export default function Footer() {
           React
         </a>{" "}
         and is hosted at{" "}
-        <a href="https://vercel.com/" rel="noreferrer" target="_blank">
-          Vercel
+        <a href="https://heroku.com/" rel="noreferrer" target="_blank">
+          Heroku
         </a>
       </div>
     </>

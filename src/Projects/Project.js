@@ -12,18 +12,19 @@ export default function Project({ props }) {
             <img className="project-image" src={props.img} alt="image" />
           </div>
           <div className="card-right">
-            <h3>{props.title}</h3>
-            <div className="project-link-list">
-              <a className="project-link" href={props.link} target="_blank">
-                Check it Out
-              </a>
+            <div className="card-top">
+              <h3>{props.title}</h3>
+              <div className="project-link-list">
+                <a className="project-link" href={props.link} target="_blank">
+                  Check it Out
+                </a>
 
-              <a className="project-link" href={props.github} target="_blank">
-                Github
-              </a>
+                <a className="project-link" href={props.github} target="_blank">
+                  Github
+                </a>
+              </div>
+              <p>{props.description}</p>
             </div>
-            <p>{props.description}</p>
-
             <ul className="tech-list">
               {techs.map((tech) => (
                 <li className="tech">{tech}</li>
@@ -34,17 +35,19 @@ export default function Project({ props }) {
       ) : (
         <div className="project-card-reverse">
           <div className="card-right">
-            <h3>{props.title}</h3>
-            <div className="project-link-list">
-              <a className="project-link" href={props.link} target="_blank">
-                Check it Out
-              </a>
+            <div className="card-top">
+              <h3>{props.title}</h3>
+              <div className="project-link-list">
+                <a className="project-link" href={props.link} target="_blank">
+                  Check it Out
+                </a>
 
-              <a className="project-link" href={props.github} target="_blank">
-                Github
-              </a>
+                <a className="project-link" href={props.github} target="_blank">
+                  Github
+                </a>
+              </div>
+              <p>{props.description}</p>
             </div>
-            <p>{props.description}</p>
             <ul className="tech-list">
               {techs.map((tech) => (
                 <li className="tech">{tech}</li>

@@ -319,6 +319,15 @@ h1 {
   text-align: center;
   background-color: #cccccc;
 }
+.card-right ul {
+  margin-bottom: 2px;
+}
+.card-right p {
+  margin-top: 0;
+}
+.card-top {
+  height: 78%;
+}
 .project-image {
   height: 100%;
   width: 100%;
