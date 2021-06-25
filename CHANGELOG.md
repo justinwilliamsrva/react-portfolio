@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.3...v0.5.4) (2021-06-25)
+
+
+### Features
+
+* added hover effects  and box shadow to Projects ([2a2daa7](https://github.com/justinwilliamsrva/react-portfolio/commit/2a2daa70debbb6097e3cb46d5d67d03bd4b180b7))
+
 ### [0.5.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.2...v0.5.3) (2021-06-25)
 
 ### [0.5.2](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.1...v0.5.2) (2021-06-25)
