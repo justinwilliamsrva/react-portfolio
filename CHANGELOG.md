@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.6.0...v0.7.0) (2021-06-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* changes styling to music sections. added correct links
+
+### Features
+
+* changes styling to music sections. added correct links ([d1d2ec7](https://github.com/justinwilliamsrva/react-portfolio/commit/d1d2ec79349d17c4e9b63787a21d04aa48b7bdac))
+
 ## [0.6.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.5.6...v0.6.0) (2021-06-25)
 
 
