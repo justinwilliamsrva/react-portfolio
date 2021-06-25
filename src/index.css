@@ -278,17 +278,33 @@ h1 {
   position: absolute;
   top: -75px;
 }
+
 .project-card,
 .project-card-reverse {
   border: 1px var(--secondary-bg-color) solid;
   border-radius: 20px;
-  max-width: 70vw;
-  height: 300px;
+  max-width: 50vw;
+  height: 250px;
   display: flex;
   margin: 0 auto;
   overflow: hidden;
   margin-bottom: 30px;
-  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform 0.7s;
+  -moz-transition: -moz-transform 0.7s;
+  -ms-transition: -ms-transform 0.7s;
+  -o-transition: -o-transform 0.7s;
+  transition: transform 0.7s;
+}
+.project-card:hover,
+.project-card-reverse:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -ms-transform: scale(1.05, 1.1);
+  -o-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+  opacity: 0.7;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .project-card-reverse {
   flex-direction: row;
@@ -326,6 +342,7 @@ h1 {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
+  font-weight: bold;
 }
 .project-link {
   background-color: var(--secondary-bg-color);
