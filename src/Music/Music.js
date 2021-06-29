@@ -1,5 +1,6 @@
 import React from "react";
 import Video from "./Video";
+import "../music.css";
 const videos = [
   {
     id: 1,
@@ -39,14 +40,16 @@ const videos = [
 
 export default function Music() {
   return (
-    <div className="section-header" id="music">
+    <section className="bg-dark" id="music">
       <span id="musics"></span>
-      <h2>Music</h2>
-      <div id="music-videos">
-        {videos.map((video) => (
-          <Video key={video.id} props={video} />
-        ))}
+      <div className="container">
+        <h2>Music</h2>
+        <div id="music-videos">
+          {videos.map((video) => (
+            <Video key={video.id} props={video} />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

@@ -56,13 +56,14 @@ const projects = [
 ];
 export function ProjectList() {
   return (
-    <div className="section-header" id="projects">
-      <span id="project"></span>
-      <h2>Projects</h2>
+    <section className="bg-light" id="project">
+      <div className="container container--narrow">
+        <h2>Projects</h2>
 
-      {projects.map((project) => (
-        <Project key={project.id} props={project} />
-      ))}
-    </div>
+        {projects.map((project) => (
+          <Project key={project.id} props={project} />
+        ))}
+      </div>
+    </section>
   );
 }

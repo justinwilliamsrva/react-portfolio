@@ -7,7 +7,7 @@ export default function Project({ props }) {
   return (
     <div>
       {props.id % 2 === 1 ? (
-        <div className="project-card">
+        <div className="flex-container project-card">
           <div className="card-left">
             <img className="project-image" src={props.img} alt="image" />
           </div>
@@ -24,16 +24,16 @@ export default function Project({ props }) {
                 </a>
               </div>
               <p>{props.description}</p>
+              <ul className="tech-list">
+                {techs.map((tech) => (
+                  <li className="tech">{tech}</li>
+                ))}
+              </ul>
             </div>
-            <ul className="tech-list">
-              {techs.map((tech) => (
-                <li className="tech">{tech}</li>
-              ))}
-            </ul>
           </div>
         </div>
       ) : (
-        <div className="project-card-reverse">
+        <div className="flex-container project-card-reverse">
           <div className="card-right">
             <div className="card-top">
               <h3>{props.title}</h3>
@@ -47,12 +47,12 @@ export default function Project({ props }) {
                 </a>
               </div>
               <p>{props.description}</p>
+              <ul className="tech-list">
+                {techs.map((tech) => (
+                  <li className="tech">{tech}</li>
+                ))}
+              </ul>
             </div>
-            <ul className="tech-list">
-              {techs.map((tech) => (
-                <li className="tech">{tech}</li>
-              ))}
-            </ul>
           </div>
           <div className="card-left">
             <img className="project-image" src={props.img} alt="images" />

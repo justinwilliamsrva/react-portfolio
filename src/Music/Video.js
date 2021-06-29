@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Video({ props }) {
   return (
-    <div class="container">
+    <div class="music-container">
       <img src={props.photo} alt={props.song} class="image" />
       <h3>
         {props.song} by {props.composer}{" "}

@@ -7,7 +7,7 @@ export default function Footer() {
     console.log(state);
     return (
       <>
-        <div className="section-header" id="contact">
+        <section className="bg-lightr" id="contact">
           <div className="container-contact">
             <h2>Contact Form</h2>
             <form onSubmit={handleSubmit}>
@@ -44,8 +44,8 @@ export default function Footer() {
           <div id="status" className="success">
             Thank you
           </div>
-        </div>
-        <div id="footer">
+        </section>
+        <section className="bg-dark" id="footer">
           This site is build using{" "}
           <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
             React
@@ -54,16 +54,15 @@ export default function Footer() {
           <a href="https://vercel.com/" rel="noreferrer" target="_blank">
             Vercel
           </a>
-        </div>
+        </section>
       </>
     );
   }
   return (
     <>
-      <div className="section-header" id="contact">
+      <section className="section-header" id="contact">
         <span id="contacts"></span>
-
-        <div className="container-contact">
+        <div className="container">
           <h2>Contact Form</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="name"></label>
@@ -92,12 +91,13 @@ export default function Footer() {
             </button>
           </form>
         </div>
-      </div>
-      <div id="footer">
+      </section>
+      <div className="bg-dark" id="footer">
         This site is build using{" "}
         <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
           React
         </a>{" "}
+        <br className="p-break" />
         and is hosted at{" "}
         <a href="https://heroku.com/" rel="noreferrer" target="_blank">
           Heroku
