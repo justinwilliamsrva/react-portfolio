@@ -341,6 +341,7 @@ header {
   position: fixed;
   z-index: 999;
   width: 100%;
+  /* margin-inline: 300px; */
 }
 
 /* changed this from the tutorial video to
@@ -448,7 +449,7 @@ nav a:active {
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
-    /* padding: 4rem 0; */
+    /* margin: 0 5rem; */
   }
 
   .logo {
@@ -520,10 +521,16 @@ nav a:active {
   padding-bottom: 20px;
   line-height: 1.6rem;
 }
+@media screen and (max-width: 800px) {
+  #home {
+    flex-direction: column;
+  }
+}
 .personal {
   background-color: var(--primary-bg-color);
   flex: 1;
   height: 100%;
+  margin-right: 5px;
 }
 .personal > h2,
 .personal > h3,
@@ -551,7 +558,7 @@ nav a:active {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  margin: 30px 30px 0px 30px;
+  margin: auto;
   overflow: hidden;
 }
 
