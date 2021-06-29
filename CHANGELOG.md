@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.7.3...v0.8.0) (2021-06-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* new layout
+
+### Features
+
+* new layout ([6133cf7](https://github.com/justinwilliamsrva/react-portfolio/commit/6133cf7b05ef9467399e2923c72a68073701bc43))
+
 ### [0.7.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.7.2...v0.7.3) (2021-06-29)
 
 ### [0.7.2](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.7.1...v0.7.2) (2021-06-27)
