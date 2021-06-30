@@ -59,8 +59,12 @@ export default function Home() {
                 independently or with a team of AGILE programmers. And as a
                 former educator, I am an experienced presenter whose reliability
                 and communication skills will benefit any workplace environment.
-                In my spare time, I am working on a daily scheduler in React
-                Native and a park database in Next.js
+              </b>
+            </p>
+            <p>
+              <b>
+                I am also an avid violinist and share my love for music whenever
+                I can!
               </b>
             </p>
           </div>
