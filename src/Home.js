@@ -70,7 +70,7 @@ export default function Home() {
               <div className="school">
                 {/* U of R INFO */}
                 <div className="icon">
-                  <img id="uor" src="/ur.png" />
+                  <img alt="UofR logo" id="uor" src="/ur.png" />
                 </div>
                 <div className="info">
                   <p>
@@ -83,7 +83,7 @@ export default function Home() {
               <br />
               <div className="school">
                 <div className="vcu-icon">
-                  <img id="vcu" src="/vcu.png" />
+                  <img alt="vcu logo" id="vcu" src="/vcu.png" />
                 </div>
                 <div className="info">
                   <p>
@@ -100,15 +100,17 @@ export default function Home() {
                 <div className="icon-ex">
                   {isToggledCcps ? (
                     <img
-                      className="arrow zoom lower"
+                      className="arrow lower"
                       onClick={() => setIsToggledCcps(!isToggledCcps)}
                       src="/Arrow-down.png"
+                      alt="arrow down"
                     />
                   ) : (
                     <img
-                      className="arrow zoom "
+                      className="arrow"
                       onClick={() => setIsToggledCcps(!isToggledCcps)}
                       src="/Arrow-right.png"
+                      alt="arrow right"
                     />
                   )}
                 </div>
@@ -147,15 +149,17 @@ export default function Home() {
                 <div className="icon-ex">
                   {isToggledFcps ? (
                     <img
-                      className="arrow zoom lower"
+                      className="arrow lower"
                       onClick={() => setIsToggledFcps(!isToggledFcps)}
                       src="/Arrow-down.png"
+                      alt="arrow down"
                     />
                   ) : (
                     <img
-                      className="arrow zoom "
+                      className="arrow"
                       onClick={() => setIsToggledFcps(!isToggledFcps)}
                       src="/Arrow-right.png"
+                      alt="arrow right"
                     />
                   )}
                 </div>
