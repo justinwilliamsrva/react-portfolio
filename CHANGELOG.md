@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.4...v0.8.5) (2021-06-30)
+
+
+### Bug Fixes
+
+* moved header ([0cf155a](https://github.com/justinwilliamsrva/react-portfolio/commit/0cf155a203339a47a6124d2f964c4ccad69aabb9))
+
 ### [0.8.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.3...v0.8.4) (2021-06-30)
 
 
