@@ -36,6 +36,12 @@ export default function Home() {
               rel="noreferrer">
               <img className="icons-icon" src="/linkedin.png" alt="LinkedIn" />
             </a>
+            <a
+              href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
+              target="_blank"
+              rel="noreferrer">
+              <img className="icons-icon" src="/cv.png" alt="resume" />
+            </a>
           </div>
         </div>
         <div className="biography">
