@@ -91,13 +91,32 @@ export default function Home() {
               </div>
             </div>
             <div id="education-learn">
-              <h2>Currently Learning</h2>
-              <ul id="current-learn">
-                <li>Data Structures</li>
-                <li>SASS</li>
-                <li>Figma</li>
-                <li>React Native</li>
-              </ul>
+              <h2>Experience</h2>
+              <div className="school">
+                {/* U of R INFO */}
+                <div className="icon">
+                  <img className="arrow" src="/Arrow-right.png" />
+                </div>
+                <div className="info">
+                  <p>
+                    <b>High School Teacher</b>
+                  </p>
+                  <p>Chesterfield County Public Schools</p>
+                </div>
+              </div>
+              {/* VCU INFO */}
+              <br />
+              <div className="school">
+                <div className="icon">
+                  <img className="arrow" src="/Arrow-right.png" />
+                </div>
+                <div className="info">
+                  <p>
+                    <b>Orchestra Director</b>
+                  </p>
+                  <p>Fairfax County Public Schools</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

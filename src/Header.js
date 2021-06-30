@@ -17,13 +17,16 @@ export default function Header() {
             <a href="#project">Projects</a>
           </li>
           <li>
+            <a href="#music">Music</a>
+          </li>
+          {/* <li>
             <a
               href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
               target="_blank"
               rel="noreferrer">
               Resume
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contacts">Contact</a>
           </li>
