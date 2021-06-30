@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.3...v0.8.4) (2021-06-30)
+
+
+### Bug Fixes
+
+* added CV,updated bio,changed sizing of skills icons ([fec2926](https://github.com/justinwilliamsrva/react-portfolio/commit/fec2926f201758255125225ec746cd36fddc9a14))
+
 ### [0.8.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.2...v0.8.3) (2021-06-30)
 
 
