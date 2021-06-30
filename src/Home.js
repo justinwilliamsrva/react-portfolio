@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Home() {
+  const [isToggledCcps, setIsToggledCcps] = useState(false);
+  const [isToggledFcps, setIsToggledFcps] = useState(false);
+
   return (
     <section id="home-top" className="bg-primary">
       <div id="home" className="container">
@@ -94,27 +97,88 @@ export default function Home() {
               <h2>Experience</h2>
               <div className="school">
                 {/* U of R INFO */}
-                <div className="icon">
-                  <img className="arrow" src="/Arrow-right.png" />
+                <div className="icon-ex">
+                  {isToggledCcps ? (
+                    <img
+                      className="arrow zoom lower"
+                      onClick={() => setIsToggledCcps(!isToggledCcps)}
+                      src="/Arrow-down.png"
+                    />
+                  ) : (
+                    <img
+                      className="arrow zoom "
+                      onClick={() => setIsToggledCcps(!isToggledCcps)}
+                      src="/Arrow-right.png"
+                    />
+                  )}
                 </div>
                 <div className="info">
                   <p>
                     <b>High School Teacher</b>
                   </p>
                   <p>Chesterfield County Public Schools</p>
+                  {isToggledCcps && (
+                    <ul className="job-list">
+                      <li>
+                        Programmed an online RPG to increase student motivation
+                        during virtual learning and an Orchestra Website to keep
+                        parents informed.
+                      </li>
+                      <li>
+                        Founded a new ensemble that performed for RVA music
+                        festivals and opened for the Richmond Symphony.
+                      </li>
+                      <li>
+                        Became the first school in Virginia to earn Superiors
+                        with two separate Grade 6 Orchestras in the same year.
+                      </li>
+                      <li>
+                        Provided and hosted many after-school activities,
+                        concerts and competitions
+                      </li>
+                      <li>Increased enrollment by 50% in first three years</li>
+                    </ul>
+                  )}
                 </div>
               </div>
               {/* VCU INFO */}
               <br />
               <div className="school">
-                <div className="icon">
-                  <img className="arrow" src="/Arrow-right.png" />
+                <div className="icon-ex">
+                  {isToggledFcps ? (
+                    <img
+                      className="arrow zoom lower"
+                      onClick={() => setIsToggledFcps(!isToggledFcps)}
+                      src="/Arrow-down.png"
+                    />
+                  ) : (
+                    <img
+                      className="arrow zoom "
+                      onClick={() => setIsToggledFcps(!isToggledFcps)}
+                      src="/Arrow-right.png"
+                    />
+                  )}
                 </div>
                 <div className="info">
                   <p>
                     <b>Orchestra Director</b>
                   </p>
                   <p>Fairfax County Public Schools</p>
+                  {isToggledFcps && (
+                    <ul className="job-list">
+                      <li>
+                        Co-directed the two largest orchestra programs in
+                        Virginia
+                      </li>
+                      <li>
+                        Helped Organize and facilitate a 100+ student trip to
+                        Myrtle Beach
+                      </li>
+                      <li>
+                        Increased enrollment at two elementary schools by 30%
+                      </li>
+                    </ul>
+                  )}
                 </div>
               </div>
             </div>
