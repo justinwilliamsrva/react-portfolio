@@ -451,7 +451,7 @@ nav a:active {
 
   header {
     display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    grid-template-columns: 1fr auto minmax(600px, 2fr) 1fr;
     /* margin: 0 5rem; */
   }
 
@@ -669,7 +669,7 @@ nav a:active {
   padding-top: 0px;
 }
 
-@media screen and (max-width: 1080px) and (min-width: 800px) {
+@media screen and (max-width: 1145px) and (min-width: 800px) {
   #home {
     flex-direction: column;
   }
