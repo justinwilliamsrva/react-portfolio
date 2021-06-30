@@ -19,7 +19,7 @@ export default function Skills() {
           </div>
           <div className="skills-section" id="additional">
             <img className="zoom" src="/list.png" />
-            <h3>Additional</h3>s
+            <h3>Additional</h3>
             <p>Version Control, JWT, GIT, Jest, Conventional Commits </p>
           </div>
         </div>
