@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.2...v0.8.3) (2021-06-30)
+
+
+### Bug Fixes
+
+* changed bio ([8366256](https://github.com/justinwilliamsrva/react-portfolio/commit/83662561b7075622a8f5eb38d0dacec863b611de))
+* removed extra letter in skills ([4621ec9](https://github.com/justinwilliamsrva/react-portfolio/commit/4621ec92b9a635ddf616beb93b3bfa980282d440))
+
 ### [0.8.2](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.1...v0.8.2) (2021-06-30)
 
 ### [0.8.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.0...v0.8.1) (2021-06-30)
