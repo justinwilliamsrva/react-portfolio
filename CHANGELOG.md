@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.0...v0.8.1) (2021-06-30)
+
+
+### Features
+
+* added experience and minor padding/margin changes ([3148672](https://github.com/justinwilliamsrva/react-portfolio/commit/314867222529f77128c001ffbda92cb9fc7a5973))
+
+
+### Bug Fixes
+
+* centerd somedivs ([37e050a](https://github.com/justinwilliamsrva/react-portfolio/commit/37e050aa4011f203d24a1747cf1e5a28cce0a6aa))
+
 ## [0.8.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.7.3...v0.8.0) (2021-06-29)
 
 
