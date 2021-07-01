@@ -141,8 +141,8 @@ export default function Home() {
                         festivals and opened for the Richmond Symphony.
                       </li>
                       <li>
-                        Became the first school in Virginia to earn Superiors
-                        with two separate Grade 6 Orchestras in the same year.
+                        Earned Superiors with two separate Grade 6 Orchestras at
+                        the 2019 VBODA District 3 Assessment.
                       </li>
                       <li>
                         Provided and hosted many after-school activities,

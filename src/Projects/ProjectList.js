@@ -8,7 +8,7 @@ const projects = [
     description:
       "Use our app to easily find local art pieces and breweries! In addition, the app considers your local weather conditions and offers advice on whether you should venture on foot or wear a coat on your travels.",
     img: "/Spirted.JPG",
-    techs: ["JQuery", "Material-UI", "AJAX"],
+    techs: ["JQuery", "Material", "AJAX"],
     link: "https://justinwilliamsrva.github.io/Spirited-Scenery/",
     github: "https://github.com/justinwilliamsrva/Spirited-Scenery",
   },
@@ -53,16 +53,27 @@ const projects = [
     link: "http://violin-central.herokuapp.com/",
     github: "https://github.com/justinwilliamsrva/Violin-Central",
   },
+  {
+    id: 6,
+    title: "Work Day Scheduler",
+    description:
+      "A simple calendar app for scheduling your workday while easily switching between Hour and half increments. A CRUD app where authenticated users can access a Violin Book Database and post new entries. Users can also search for lessons plans and connected them to certain books",
+    img: "workday.JPG",
+    techs: ["CSS", "JavaScript", "Moment.js"],
+    link: "https://justinwilliamsrva.github.io/dailyscheduler/",
+    github: "https://github.com/justinwilliamsrva/dailyscheduler",
+  },
 ];
 export function ProjectList() {
   return (
-    <section className="bg-light" id="project">
-      <div className="container container--narrow">
+    <section className="bg-light">
+      <div id="project" className="container">
         <h2>Projects</h2>
-
-        {projects.map((project) => (
-          <Project key={project.id} props={project} />
-        ))}
+        <div id="project-div">
+          {projects.map((project) => (
+            <Project key={project.id} props={project} />
+          ))}
+        </div>
       </div>
     </section>
   );
