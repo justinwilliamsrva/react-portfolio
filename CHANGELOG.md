@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.10](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.9...v0.8.10) (2021-07-01)
+
+
+### Bug Fixes
+
+* Fixed toggle for experience ([5bdc79d](https://github.com/justinwilliamsrva/react-portfolio/commit/5bdc79dd90a9c23c0db0b8def3278ded4b8f97f4))
+
 ### [0.8.9](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.8...v0.8.9) (2021-07-01)
 
 
