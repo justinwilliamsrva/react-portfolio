@@ -50,18 +50,15 @@ export default function Home() {
             <p>
               <b>
                 <span className="teal">Full-Stack Web Developer</span> with over
-                ten years of experience in primary and secondary education. As a
-                former teacher, I am eager to combine my leadership and
-                organizational skills with my love for programming to make
-                appealing, engaging, and robust web applications.
+                ten years of experience in primary and secondary education.
               </b>
             </p>
             <p>
               <b>
-                I <span className="teal">love</span> programming and I am gifted
-                at resolving problems and learning new skills. As a University
-                of Richmond Coding Boot Camp Graduate, I have the technical
-                skills to approach front-end and back-end challenges
+                I have a <span className="teal">passion</span> for programming
+                and I am gifted at resolving problems and applying new technical
+                skills. As a University of Richmond Coding Boot Camp Graduate, I
+                have the expertise to approach front-end and back-end challenges
                 independently or with a team of AGILE programmers. And as a
                 former educator, I am an experienced presenter whose reliability
                 and communication skills will benefit any workplace environment.
@@ -69,7 +66,7 @@ export default function Home() {
             </p>
             <p>
               <b>
-                I am also an avid violinist and share my love for music whenever
+                I am also a professional violinist who loves to perform whenever
                 I can!
               </b>
             </p>
