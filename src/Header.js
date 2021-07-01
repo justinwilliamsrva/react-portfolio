@@ -8,27 +8,30 @@ export default function Header() {
       <nav>
         <ul>
           <li>
-            <a href="#content">Bio</a>
-          </li>
-          <li>
-            <a href="#skillet">Skills</a>
-          </li>
-          <li>
-            <a href="#project">Projects</a>
-          </li>
-          <li>
-            <a href="#music">Music</a>
-          </li>
-          {/* <li>
-            <a
-              href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
-              target="_blank"
-              rel="noreferrer">
-              Resume
+            <a href="#content" className="js-smooth-scroll">
+              Bio
             </a>
-          </li> */}
+          </li>
           <li>
-            <a href="#contacts">Contact</a>
+            <a href="#skillet" className="js-smooth-scroll">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#project" className="js-smooth-scroll">
+              Projects
+            </a>
+          </li>
+          <li>
+            <a href="#music" className="js-smooth-scroll">
+              Music
+            </a>
+          </li>
+
+          <li>
+            <a href="#contacts" className="js-smooth-scroll">
+              Contact
+            </a>
           </li>
         </ul>
       </nav>
