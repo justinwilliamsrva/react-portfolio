@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.5...v0.8.6) (2021-07-01)
+
+
+### Bug Fixes
+
+* changed margin-inline to margin ([a2165be](https://github.com/justinwilliamsrva/react-portfolio/commit/a2165beadc8361b67b372842bab35c1e0ff57f78))
+
 ### [0.8.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.4...v0.8.5) (2021-06-30)
 
 
