@@ -66,7 +66,7 @@ const projects = [
 ];
 export function ProjectList() {
   return (
-    <section className="bg-light">
+    <section id="project-scroll" className="bg-light">
       <div id="project" className="container">
         <h2>Projects</h2>
         <div id="project-div">
