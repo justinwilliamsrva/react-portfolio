@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.14](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.13...v0.8.14) (2021-07-01)
+
+
+### Features
+
+* mionr scrolling errors ([65ea08e](https://github.com/justinwilliamsrva/react-portfolio/commit/65ea08e9d3370ae8dac59e33466eb38b591e148b))
+
 ### [0.8.13](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.12...v0.8.13) (2021-07-01)
 
 
