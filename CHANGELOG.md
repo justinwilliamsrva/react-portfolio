@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.10...v0.8.11) (2021-07-01)
+
+
+### Bug Fixes
+
+* fixed line break in education ([5e77dfe](https://github.com/justinwilliamsrva/react-portfolio/commit/5e77dfe0c38398c4734e5bde4ac5eec2204f6e66))
+
 ### [0.8.10](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.9...v0.8.10) (2021-07-01)
 
 
