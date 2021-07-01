@@ -7,7 +7,7 @@ export default function Project({ props }) {
   return (
     <div>
       {props.id % 2 === 1 ? (
-        <div className={`${props.title} flex-container project-card`}>
+        <div className={`${props.title} zoom flex-container project-card`}>
           <div className="card-left">
             <img className="project-image" src={props.img} alt="image" />
           </div>
@@ -31,7 +31,7 @@ export default function Project({ props }) {
           </div>
         </div>
       ) : (
-        <div className="flex-container project-card-reverse">
+        <div className="flex-container zoom project-card-reverse">
           <div className="card-right">
             <h3>{props.title}</h3>
             <div className="project-link-list">

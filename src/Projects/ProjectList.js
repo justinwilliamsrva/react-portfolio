@@ -37,7 +37,7 @@ const projects = [
     id: 4,
     title: "Summer Camp Staff App",
     description:
-      "A CRUD app that allows camp organizers and staff to keep track of inventory, manage student records, and communicate with all staff while keeping certain features reserved for authorized users",
+      "A CRUD app that allows camp organizers and staff to keep track of inventory, manage student records, and communicate with all staff while keeping certain features reserved.",
     img: "staff.JPG",
     techs: ["MongoDB", "Express", "React"],
     link: "https://summercampstaffapp.herokuapp.com/",
@@ -47,7 +47,7 @@ const projects = [
     id: 5,
     title: "Violin Central",
     description:
-      "A CRUD app where authenticated users can access a Violin Book Database and post new entries. Users can also search for lessons plans and connected them to certain books",
+      "A CRUD app where authenticated users can access a Violin Book Database and post new entries. Users can also search for lessons plans. ",
     img: "violin central.JPG",
     techs: ["Handlebars", "Express", "MySQL"],
     link: "http://violin-central.herokuapp.com/",
@@ -57,7 +57,7 @@ const projects = [
     id: 6,
     title: "Work Day Scheduler",
     description:
-      "A simple calendar app for scheduling your workday while easily switching between Hour and half increments. A CRUD app where authenticated users can access a Violin Book Database and post new entries. Users can also search for lessons plans and connected them to certain books",
+      "A simple calendar app for scheduling your workday while easily switching between Hour and half increments. ",
     img: "workday.JPG",
     techs: ["CSS", "JavaScript", "Moment.js"],
     link: "https://justinwilliamsrva.github.io/dailyscheduler/",

@@ -108,21 +108,12 @@ export default function Home() {
               <div className="school">
                 {/* U of R INFO */}
                 <div className="icon-ex">
-                  {isToggledCcps ? (
-                    <img
-                      className="arrow lower"
-                      onClick={() => setIsToggledCcps(!isToggledCcps)}
-                      src="/Arrow-down.png"
-                      alt="arrow down"
-                    />
-                  ) : (
-                    <img
-                      className="arrow"
-                      onClick={() => setIsToggledCcps(!isToggledCcps)}
-                      src="/Arrow-right.png"
-                      alt="arrow right"
-                    />
-                  )}
+                  <img
+                    className={`arrow ${isToggledCcps && "rotate"} `}
+                    onClick={() => setIsToggledCcps(!isToggledCcps)}
+                    src="/Arrow-right.png"
+                    alt="arrow right"
+                  />
                 </div>
                 <div className="info">
                   <p>
@@ -157,21 +148,12 @@ export default function Home() {
               <br />
               <div className="school">
                 <div className="icon-ex">
-                  {isToggledFcps ? (
-                    <img
-                      className="arrow lower"
-                      onClick={() => setIsToggledFcps(!isToggledFcps)}
-                      src="/Arrow-down.png"
-                      alt="arrow down"
-                    />
-                  ) : (
-                    <img
-                      className="arrow"
-                      onClick={() => setIsToggledFcps(!isToggledFcps)}
-                      src="/Arrow-right.png"
-                      alt="arrow right"
-                    />
-                  )}
+                  <img
+                    className={`arrow ${isToggledFcps && "rotate"} `}
+                    onClick={() => setIsToggledFcps(!isToggledFcps)}
+                    src="/Arrow-right.png"
+                    alt="arrow right"
+                  />
                 </div>
                 <div className="info">
                   <p>
