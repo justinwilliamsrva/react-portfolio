@@ -173,7 +173,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  background-color: #cccccc;
+  background-color: rgb(232, 234, 235);
 }
 .card-right ul {
   margin-bottom: 2px;
@@ -184,7 +184,7 @@ p {
 .card-right > ul,
 .card-right > p {
   /* height: 60px; */
-  margin: 0;
+  margin: 3px 0px 3px 0px;
   /* font-size: 0.5rem; */
   /* margin-top: 0; */
   /* color: red; */
