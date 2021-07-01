@@ -1,6 +1,6 @@
 import React from "react";
 import Video from "./Video";
-import "../music.css";
+import "../styles/music.css";
 const videos = [
   {
     id: 1,
