@@ -618,6 +618,11 @@ nav a:active {
   flex: 1;
 }
 
+@media screen and (max-width: 370px) {
+  #education p {
+    font-size: 0.8rem;
+  }
+}
 #current-learn {
   margin-top: 0;
 }
