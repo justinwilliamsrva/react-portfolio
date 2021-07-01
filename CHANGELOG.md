@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.6...v0.8.7) (2021-07-01)
+
+
+### Bug Fixes
+
+* changed gap to margin on icons ([b617cf6](https://github.com/justinwilliamsrva/react-portfolio/commit/b617cf695f702f80cf4211a490d94629dd61afab))
+
 ### [0.8.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.5...v0.8.6) (2021-07-01)
 
 
