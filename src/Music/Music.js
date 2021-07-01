@@ -5,7 +5,7 @@ const videos = [
   {
     id: 1,
     song: "Jesus Paid it All",
-    composer: "Grape/Gustafson",
+    composer: "Grape-Gustafson",
     date: "October 1, 2017",
     photo: "/MV-Arise-my-soul.jpg",
     link: "https://vimeo.com/236775991",
