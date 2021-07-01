@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.13](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.12...v0.8.13) (2021-07-01)
+
+
+### Features
+
+* Added smooth scroll for apple producs ([9d0befa](https://github.com/justinwilliamsrva/react-portfolio/commit/9d0befa5db8fa3ff7c30b4b151dbb4bdc82731fb))
+
 ### [0.8.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.11...v0.8.12) (2021-07-01)
 
 
