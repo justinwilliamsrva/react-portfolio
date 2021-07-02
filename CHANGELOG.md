@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.18](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.17...v0.8.18) (2021-07-02)
+
+
+### Bug Fixes
+
+* expanded width of contact form ([2ee18dc](https://github.com/justinwilliamsrva/react-portfolio/commit/2ee18dcae1475c5fd2b391bfa9a858a25f480c1c))
+
 ### [0.8.17](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.16...v0.8.17) (2021-07-02)
 
 
