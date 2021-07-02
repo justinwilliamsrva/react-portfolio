@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.16](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.15...v0.8.16) (2021-07-02)
+
+
+### Bug Fixes
+
+* lowered the font size of home paragraphs ([59eb508](https://github.com/justinwilliamsrva/react-portfolio/commit/59eb50890e15e322793ce9dee2e1c82b95265b44))
+
 ### [0.8.15](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.14...v0.8.15) (2021-07-01)
 
 
