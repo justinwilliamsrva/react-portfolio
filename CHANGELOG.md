@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.17](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.16...v0.8.17) (2021-07-02)
+
+
+### Bug Fixes
+
+* fixed college icons alignment and fon of job-list ([34df346](https://github.com/justinwilliamsrva/react-portfolio/commit/34df3460a546f961cae3c7f54de3978f8dbc31fb))
+
 ### [0.8.16](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.15...v0.8.16) (2021-07-02)
 
 
