@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.9.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.18...v0.9.0) (2021-07-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* Add sliding toggle to experience
+
+### Features
+
+* Add sliding toggle to experience ([94d3a1b](https://github.com/justinwilliamsrva/react-portfolio/commit/94d3a1bd50d65f1e527f5af19f917331712d174c))
+
 ### [0.8.18](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.8.17...v0.8.18) (2021-07-02)
 
 
