@@ -619,7 +619,8 @@ nav a:active {
 }
 
 @media screen and (max-width: 370px) {
-  #home p {
+  #home p,
+  .job-list {
     font-size: 0.8rem;
   }
 }
@@ -640,17 +641,17 @@ nav a:active {
 }
 .school > .icon {
   float: left;
-  margin: 0px 25px;
+  margin: 10px 25px;
 }
 
 .school > .vcu-icon {
   float: left;
-  margin: 0px 5px;
+  margin: 10px 5px;
 }
 .school > .icon > #uor {
   height: 30px;
   width: 30px;
-  margin: 6px 0px;
+  margin: 0px;
 }
 .school > .icon-ex {
   float: left;
@@ -700,16 +701,12 @@ nav a:active {
 .school > .vcu-icon > #vcu {
   height: 30px;
   width: 69px;
-  margin: 6px 0px;
+  margin: 0px;
 }
 
 .job-list {
   margin-top: 0;
   padding-left: 100px;
-}
-
-#home-top {
-  /* margin: 0.2em; */
 }
 
 @media screen and (max-width: 1145px) and (min-width: 800px) {
