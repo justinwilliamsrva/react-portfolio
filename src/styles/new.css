@@ -411,7 +411,7 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: white;
+  background: var(--primary-bg-color);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -637,6 +637,7 @@ nav a:active {
 .school > .info > p {
   margin: 0;
 }
+
 .school > .icon {
   float: left;
   margin: 10px 25px;
@@ -702,10 +703,70 @@ nav a:active {
   margin: 0px;
 }
 
+#job-ccps {
+  height: 500px;
+  transition: width 2s, height 800ms, transform 2s;
+}
+#none-ccps {
+  height: 0px;
+  transition: width 2s, height 600ms, transform 2s;
+}
+@media screen and (max-width: 1145px) {
+  #job-ccps {
+    height: 350px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 841px) and (min-width: 801px) {
+  #job-ccps {
+    height: 400px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 486px) {
+  #job-ccps {
+    height: 300px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  #job-ccps {
+    height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+#job-fcps {
+  height: 60px;
+  transition: width 2s, height 450ms, transform 2s;
+}
+
+.none-list {
+  /* display: none; */
+  margin-top: 0;
+
+  padding-left: 100px;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+.none-list > li {
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
 .job-list {
   margin-top: 0;
+
   padding-left: 100px;
-  animation-duration: 4s;
+  transform: scale(1, 1);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+.job-list > li {
+  opacity: 1;
+  transition: opacity 150ms ease-in-out 150ms;
 }
 
 @media screen and (max-width: 1145px) and (min-width: 800px) {

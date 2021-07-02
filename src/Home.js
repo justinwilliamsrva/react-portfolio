@@ -117,8 +117,8 @@ export default function Home() {
                     <b>High School Teacher</b>
                   </p>
                   <p>Chesterfield County Public Schools</p>
-                  {isToggledCcps && (
-                    <ul className="job-list">
+                  <div id={isToggledCcps ? "job-ccps" : "none-ccps"}>
+                    <ul className={isToggledCcps ? "job-list" : "none-list"}>
                       <li>
                         Programmed an online RPG to increase student motivation
                         during virtual learning and an Orchestra Website to keep
@@ -138,12 +138,14 @@ export default function Home() {
                       </li>
                       <li>Increased enrollment by 50% in first three years</li>
                     </ul>
-                  )}
+                    {/* </div> */}
+                  </div>
                 </div>
               </div>
-              {/* VCU INFO */}
               <br />
+              {/* VCU INFO */}
               <div className="school">
+                {/* U of R INFO */}
                 <div className="icon-ex">
                   <img
                     className={`arrow ${isToggledFcps && "rotate"} `}
@@ -157,8 +159,8 @@ export default function Home() {
                     <b>Orchestra Director</b>
                   </p>
                   <p>Fairfax County Public Schools</p>
-                  {isToggledFcps && (
-                    <ul className="job-list">
+                  <div id={isToggledFcps ? "job-fcps" : "none-ccps"}>
+                    <ul className={isToggledFcps ? "job-list" : "none-list"}>
                       <li>
                         Co-directed the two largest orchestra programs in
                         Virginia
@@ -171,7 +173,8 @@ export default function Home() {
                         Increased enrollment at two elementary schools by 30%
                       </li>
                     </ul>
-                  )}
+                    {/* </div> */}
+                  </div>
                 </div>
               </div>
             </div>
