@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.2](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.1...v0.9.2) (2021-07-02)
+
+
+### Features
+
+* added X for burger menu ([5a34f70](https://github.com/justinwilliamsrva/react-portfolio/commit/5a34f70a3463bc6673fbe2bed27747e81a4e4d85))
+
 ### [0.9.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.0...v0.9.1) (2021-07-02)
 
 
