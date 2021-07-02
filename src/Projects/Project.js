@@ -9,7 +9,12 @@ export default function Project({ props }) {
       {props.id % 2 === 1 ? (
         <div className={`${props.title} zoom flex-container project-card`}>
           <div className="card-left">
-            <img className="project-image" src={props.img} alt="image" />
+            <img
+              loading="lazy"
+              className="project-image"
+              src={props.img}
+              alt="image"
+            />
           </div>
           <div className="card-right">
             <h3>{props.title}</h3>
@@ -51,7 +56,12 @@ export default function Project({ props }) {
             </ul>
           </div>
           <div className="card-left">
-            <img className="project-image" src={props.img} alt="images" />
+            <img
+              loading="lazy"
+              className="project-image"
+              src={props.img}
+              alt="images"
+            />
           </div>
         </div>
       )}
