@@ -29,7 +29,7 @@ export default function Header() {
           </li>
 
           <li>
-            <a href="#contacts" className="js-smooth-scroll">
+            <a href="#contact" className="js-smooth-scroll">
               Contact
             </a>
           </li>

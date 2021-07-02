@@ -619,7 +619,7 @@ nav a:active {
 }
 
 @media screen and (max-width: 370px) {
-  #education p {
+  #home p {
     font-size: 0.8rem;
   }
 }
