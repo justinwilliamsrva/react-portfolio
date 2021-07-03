@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Spirited Scenery",
     description:
-      "Use our app to easily find local art pieces and breweries! In addition, the app considers your local weather conditions and offers advice on whether you should venture on foot or wear a coat on your travels.",
+      "Easily find local art pieces and breweries with the power of Google's API. The app also considers your local weather conditions and offers advice on whether you should venture on foot or wear a coat on your travels.",
     img: "/Spirted.JPG",
     techs: ["JQuery", "Material", "AJAX"],
     link: "https://justinwilliamsrva.github.io/Spirited-Scenery/",
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "Orchestra RPG",
     description:
-      "Users can learn scales, shifting and bow technique during mandated virtual learningStudents can login to profile, turn-in assignments, receive teacher feedback, compare progress to the rest of the class.",
+      "Users can learn scales, shifting and bow technique during mandated virtual learning. Students login into their  profile, turn-in assignments, receive teacher feedback, and compare progress to the rest of the class.",
     img: "rpg-photo.JPG",
     techs: ["HTML", "CSS", "JavaScript"],
     link: "https://cavorch.org/orchestra/rpg.html",
@@ -27,7 +27,7 @@ const projects = [
     id: 3,
     title: "CHHS Orchestra",
     description:
-      "Static website that displays the orchestra, conductor information, orchestra news and the calendar  parents and includes important links for students",
+      "Static website that displays the orchestra info, conductor information, orchestra news, the calendar for parents and includes important links for students",
     img: "cavorch.JPG",
     techs: ["HTML", "CSS", "JavaScript"],
     link: "https://cavorch.org/",
@@ -57,7 +57,7 @@ const projects = [
     id: 6,
     title: "Work Day Scheduler",
     description:
-      "A simple calendar app for scheduling your workday while easily switching between Hour and half increments. ",
+      "A simple calendar app for scheduling your workday while easily switching between hour and half-half increments. ",
     img: "workday.JPG",
     techs: ["CSS", "JavaScript", "Moment.js"],
     link: "https://justinwilliamsrva.github.io/dailyscheduler/",
