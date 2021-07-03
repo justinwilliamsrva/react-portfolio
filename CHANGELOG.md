@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.6...v0.9.7) (2021-07-03)
+
+
+### Bug Fixes
+
+* fixed mispelling in footer ([1236020](https://github.com/justinwilliamsrva/react-portfolio/commit/12360201f63b893353b692d0263d4727b4b7dd7d))
+
 ### [0.9.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.5...v0.9.6) (2021-07-03)
 
 
