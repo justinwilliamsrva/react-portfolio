@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.5...v0.9.6) (2021-07-03)
+
+
+### Bug Fixes
+
+* changed color of footer links to blue ([8562dc2](https://github.com/justinwilliamsrva/react-portfolio/commit/8562dc21e16bdc59e3db5bbb7865867493689407))
+
 ### [0.9.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.4...v0.9.5) (2021-07-03)
 
 
