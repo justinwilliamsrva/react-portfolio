@@ -84,7 +84,8 @@ p {
 }
 
 .flex-gap {
-  gap: 10vw;
+  /* gap: 10vw; */
+  justify-content: center;
 }
 
 @media only screen and (max-width: 40em) {
@@ -119,6 +120,10 @@ p {
   .p-break {
     display: inline;
   }
+}
+
+.skills-section {
+  flex: 1;
 }
 
 .skills-section > img {
@@ -536,6 +541,9 @@ nav a:active {
 
 #footer {
   padding: 15px;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
 }
 
 #content {

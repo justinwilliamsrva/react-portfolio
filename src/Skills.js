@@ -10,7 +10,7 @@ export default function Skills() {
           <div className="skills-section" id="front-end">
             <img loading="lazy" className="zoom" src="/responsive.png" />
             <h3>Front-End</h3>
-            <p>HTML, CSS libraries, JavaScript, React, Responsive Design </p>
+            <p>HTML, CSS Libraries, JavaScript, React, Responsive Design </p>
           </div>
           <div className="skills-section" id="back-end">
             <img loading="lazy" className="zoom" src="/server.png" />
