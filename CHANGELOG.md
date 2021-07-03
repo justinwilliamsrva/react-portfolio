@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.3...v0.9.4) (2021-07-03)
+
+
+### Features
+
+* fixed mispellings on project descriptions ([5d896aa](https://github.com/justinwilliamsrva/react-portfolio/commit/5d896aad8eed8c7f8649e92c06f012fdd5e6eaf8))
+
 ### [0.9.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.2...v0.9.3) (2021-07-02)
 
 
