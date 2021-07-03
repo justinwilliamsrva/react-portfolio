@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.4...v0.9.5) (2021-07-03)
+
+
+### Bug Fixes
+
+* minor centering issues ([533e74e](https://github.com/justinwilliamsrva/react-portfolio/commit/533e74ecfb35e5c1b9737866839c46f309f997a0))
+
 ### [0.9.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.3...v0.9.4) (2021-07-03)
 
 
