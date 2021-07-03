@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
       </section>
       <div className="bg-dark" id="footer">
-        This site is build using{" "}
+        This site is built using{" "}
         <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
           React
         </a>{" "}
