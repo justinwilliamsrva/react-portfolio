@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.2](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.1...v10.0.2) (2021-07-08)
+
+
+### Bug Fixes
+
+* changed image sizes in Readme ([3a034ec](https://github.com/justinwilliamsrva/react-portfolio/commit/3a034ec2011a9ca944be5f6ff5e2b2b4bd55cea7))
+
 ### [10.0.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.0...v10.0.1) (2021-07-08)
 
 
