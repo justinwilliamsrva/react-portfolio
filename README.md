@@ -148,6 +148,7 @@ Needs
 
 </td><td colspan="1">
 <ul>  <li>Redo Nav with React Router</li>
+<li>Refactor CSS</li>
 <li>Change Colors to Tech list</li>
 <li>Embed videos instead of using links </li>
 <li>Add a success banner for contact form </li>
