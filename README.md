@@ -1,35 +1,35 @@
 <h1 align="center"style="border-bottom:none;margin:0">
-  <a name="logo" href="https://justinwdev.com"><img src="/favicon-192x192.png" alt="Justin Williams" width="192"></a>
+  <a name="logo" href="https://justinwdev.com"><img src="public/favicon-192x192.png" alt="Justin Williams" width="192"></a>
   <br>
   <br>
   Justin Williams React Portfolio
 </h1>
 
-<a class="button" href="https://justinwilliamsrva.github.io/Spirited-Scenery"><h3  align="center" p-style="border-bottom:none;margin:0 ">View Website </h3></a>
+<a class="button" href="https://justinwilliamsrva.github.io/react-portfolio"><h3  align="center" p-style="border-bottom:none;margin:0 ">View Website </h3></a>
 
 <div align="center"><a name="menu"></a>
   <h4>
-    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Overview">
+    <a href="https://github.com/justinwilliamsrva/react-portfolio#Overview">
       Overview
     </a>
     <span> | </span>
-    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Screenshots">
+    <a href="https://github.com/justinwilliamsrva/react-portfolio#Screenshots">
       Screenshots
     </a>
     <span> | </span>
-    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Technologies">
+    <a href="https://github.com/justinwilliamsrva/react-portfolio#Technologies">
       Technologies
     </a>
     <span> | </span>
-    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Assignment">
+    <a href="https://github.com/justinwilliamsrva/react-portfolio#Assignment">
       Assignment
     </a>
     <span> | </span>
-     <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Development">
+     <a href="https://github.com/justinwilliamsrva/react-portfolio#Development">
     Development
     </a>
     <span> | </span>
-    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Contact">
+    <a href="https://github.com/justinwilliamsrva/react-portfolio#Contact">
       Contact
     </a>
 
@@ -40,7 +40,7 @@
 
 <br>
 
-<h1 align="center" border="none" style="border-bottom:none;margin:0" name="Overview" > Overview  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<h1 align="center" border="none" style="border-bottom:none;margin:0" name="Overview" > Overview  <a href="https://github.com/justinwilliamsrva/react-portfolio#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
 <h3> Client
 </h3>
@@ -70,19 +70,19 @@ A portfolio website for employers and clients to view my bio, projects, skills a
 
 <br>
 
-<h1 align="center" style="text-align: center;border-bottom:none" name="Screenshots" > Screenshots  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<h1 align="center" style="text-align: center;border-bottom:none" name="Screenshots" > Screenshots  <a href="https://github.com/justinwilliamsrva/react-portfolio#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
-<img src="/public/web-1.JPG" alt="Home" width="192">
-<img src="/web-2.JPG" alt="Skills" width="192">
-<img src="/web-3.JPG" alt="Projects" width="192">
-<img src="/web-4.JPG" alt="Music" width="192">
-<img src="/web-5.JPG" alt="Contact" width="192">
+<img src="/public/web-1.JPG" alt="Home">
+<img src="/public/web-2.JPG" alt="Skills" width="512">
+<img src="/public/web-3.JPG" alt="Projects" width="512">
+<img src="/public/web-4.JPG" alt="Music" width="512">
+<img src="/public/web-5.JPG" alt="Contact" width="512">
 
 ---
 
 <br>
 
-<h1 align="center" name="Technologies" style="border-bottom:none;margin:0"> Technologies  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<h1 align="center" name="Technologies" style="border-bottom:none;margin:0"> Technologies  <a href="https://github.com/justinwilliamsrva/react-portfolio#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
 <h3> Languages</h3>
 
@@ -92,7 +92,7 @@ A portfolio website for employers and clients to view my bio, projects, skills a
 
 <br>
 
-<h1  align="center" style="border-bottom:none;margin:0" name="Assignment" > Assignment  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<h1  align="center" style="border-bottom:none;margin:0" name="Assignment" > Assignment  <a href="https://github.com/justinwilliamsrva/react-portfolio#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
 <h3> User Story</h3>
 
@@ -124,7 +124,7 @@ THEN The CSS is responsive with a hamburger menu
 
 <br>
 
-<h1 align="center" style="text-align: center;border-bottom:none" name="Development" > Development: <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<h1 align="center" style="text-align: center;border-bottom:none" name="Development" > Development: <a href="https://github.com/justinwilliamsrva/react-portfolio#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
 <table align="center" border="1">
 
@@ -162,5 +162,5 @@ Needs
 
 <br>
 
-<h1 align="center" style="text-align: center;border-bottom:none" name="Contact" >Contact <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<h1 align="center" style="text-align: center;border-bottom:none" name="Contact" >Contact <a href="https://github.com/justinwilliamsrva/react-portfolio#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 <p align="center" style="text-align: center">Contact to me through <a href="www.justinwdev.com">my website</a> or email me at <a href="mailto: justinwdev@gmail.com">justinwdev@gmail.com</a><p>
