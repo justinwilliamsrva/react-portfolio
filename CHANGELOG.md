@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.10...v0.9.11) (2021-07-08)
+
+
+### Features
+
+* Change hamberger menu transition duration and added linnk to the main logo ([5dc01b3](https://github.com/justinwilliamsrva/react-portfolio/commit/5dc01b3facafd7202ba3bfc193c5a3638aa2f7fb))
+
 ### [0.9.10](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.9...v0.9.10) (2021-07-08)
 
 
