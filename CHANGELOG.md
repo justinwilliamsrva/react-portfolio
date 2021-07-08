@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.9.9](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.8...v0.9.9) (2021-07-08)
+
+
+### Bug Fixes
+
+* meida quiers for the job tasks on the home page. ([2079fd8](https://github.com/justinwilliamsrva/react-portfolio/commit/2079fd81b0c5e307e5408f5ae84809cf2586d37c))
+
 ### [0.9.8](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.7...v0.9.8) (2021-07-08)
 
 ### [0.9.7](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.6...v0.9.7) (2021-07-03)
