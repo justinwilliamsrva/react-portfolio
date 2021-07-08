@@ -363,6 +363,10 @@ header {
   box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 }
 
+.logo > a {
+  text-decoration: none;
+}
+
 /* changed this from the tutorial video to
    allow it to gain focus, making it tabbable */
 .nav-toggle {
@@ -394,6 +398,7 @@ header {
   width: 2em;
   border-radius: 2px;
   position: relative;
+  transition-duration: 600ms;
 }
 
 .nav-toggle-label span::before,

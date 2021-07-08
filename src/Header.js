@@ -3,7 +3,11 @@ import React from "react";
 export default function Header() {
   return (
     <header>
-      <h1 className="teal logo">Justin Williams</h1>
+      <h1 className=" logo">
+        <a href="#content" className=" teal js-smooth-scroll">
+          Justin Williams
+        </a>
+      </h1>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
