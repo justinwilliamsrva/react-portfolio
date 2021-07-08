@@ -72,7 +72,7 @@ A portfolio website for employers and clients to view my bio, projects, skills a
 
 <h1 align="center" style="text-align: center;border-bottom:none" name="Screenshots" > Screenshots  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
-<img src="/web-1.JPG" alt="Home" width="192">
+<img src="/public/web-1.JPG" alt="Home" width="192">
 <img src="/web-2.JPG" alt="Skills" width="192">
 <img src="/web-3.JPG" alt="Projects" width="192">
 <img src="/web-4.JPG" alt="Music" width="192">
