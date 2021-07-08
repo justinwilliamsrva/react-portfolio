@@ -1,60 +1,166 @@
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h1 align="center"style="border-bottom:none;margin:0">
+  <a name="logo" href="https://justinwdev.com"><img src="/favicon-192x192.png" alt="Justin Williams" width="192"></a>
+  <br>
+  <br>
+  Justin Williams React Portfolio
+</h1>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a class="button" href="https://justinwilliamsrva.github.io/Spirited-Scenery"><h3  align="center" p-style="border-bottom:none;margin:0 ">View Website </h3></a>
 
-### `npm test`
+<div align="center"><a name="menu"></a>
+  <h4>
+    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Overview">
+      Overview
+    </a>
+    <span> | </span>
+    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Screenshots">
+      Screenshots
+    </a>
+    <span> | </span>
+    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Technologies">
+      Technologies
+    </a>
+    <span> | </span>
+    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Assignment">
+      Assignment
+    </a>
+    <span> | </span>
+     <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Development">
+    Development
+    </a>
+    <span> | </span>
+    <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#Contact">
+      Contact
+    </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  </h4>
+</div>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h1 align="center" border="none" style="border-bottom:none;margin:0" name="Overview" > Overview  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3> Client
+</h3>
 
-### `npm run eject`
+```
+Personal Project
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h3>About </h3>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+A portfolio website for employers and clients to view my bio, projects, skills and music in a modern UX.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3>Features </h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+- View picture, bio and social media links all on the first page
+- See skills and a project page with links and descriptions
+- Get links for recent music
+- Contact using a Formspree plugin
+- Smooth scroll and various hover effects
+- Responsive Nav Bar with hamburger menu
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h1 align="center" style="text-align: center;border-bottom:none" name="Screenshots" > Screenshots  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
-### Code Splitting
+<img src="/web-1.JPG" alt="Home" width="192">
+<img src="/web-2.JPG" alt="Skills" width="192">
+<img src="/web-3.JPG" alt="Projects" width="192">
+<img src="/web-4.JPG" alt="Music" width="192">
+<img src="/web-5.JPG" alt="Contact" width="192">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<h1 align="center" name="Technologies" style="border-bottom:none;margin:0"> Technologies  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
-### Making a Progressive Web App
+<h3> Languages</h3>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![image](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
+<h1  align="center" style="border-bottom:none;margin:0" name="Assignment" > Assignment  <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<h3> User Story</h3>
 
-### `npm run build` fails to minify
+```
+AS A web developer
+I WANT a website that showcases my web development and musical talents
+SO THAT I can find new opportunities with my skill sets
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3> Acceptance Criteria</h3>
+
+```
+GIVEN I am using a portfolio website
+WHEN the website loads
+THEN I can see the page with image,icons,bio,schools and work
+WHEN Click the link in the navbar
+THEN The scrolling is smooth
+WHEN I click on the work experience
+THEN a toggle shows accomplishments/tasks smoothly
+WHEN I hover over the projects or icons
+THEN the card or icon is enlarged
+WHEN I submit a message
+THEN I am told it have been sent
+WHEN I open the website on a table or phone
+THEN The CSS is responsive with a hamburger menu
+```
+
+---
+
+<br>
+
+<h1 align="center" style="text-align: center;border-bottom:none" name="Development" > Development: <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+
+<table align="center" border="1">
+
+<tr><td align="center" colspan="1" style="width:50%">
+
+Challenges
+
+</td><td align="center" colspan="1" style="width:50%">
+
+Needs
+
+</td></tr>
+
+<tr><td colspan="1">
+<ul>
+          <li>Transition timing for the Toggle in the Experience section</li>
+          <li>Choosing Colors</li>
+          <li>Utilizing utility classes</li>
+
+</ul>
+
+</td><td colspan="1">
+<ul>  <li>Redo Nav with React Router</li>
+<li>Change Colors to Tech list</li>
+<li>Embed videos instead of using links </li>
+<li>Add a success banner for contact form </li>
+<li>Add Animations</li>
+
+</ul>
+</td></tr>
+
+</table>
+
+---
+
+<br>
+
+<h1 align="center" style="text-align: center;border-bottom:none" name="Contact" >Contact <a href="https://github.com/justinwilliamsrva/Spirited-Scenery#logo"><img align="right" border="0" src="https://raw.githubusercontent.com/CCOSTAN/Home-AssistantConfig/master/config/www/custom_ui/floorplan/images/branding/up_arrow.png" width="22" ></a></h1>
+<p align="center" style="text-align: center">Contact to me through <a href="www.justinwdev.com">my website</a> or email me at <a href="mailto: justinwdev@gmail.com">justinwdev@gmail.com</a><p>
