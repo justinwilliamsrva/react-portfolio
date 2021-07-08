@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.0.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.11...v10.0.0) (2021-07-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* Created a readme file
+
+### Features
+
+* Created a readme file ([a4273d9](https://github.com/justinwilliamsrva/react-portfolio/commit/a4273d9226ec0d04f5b5a11a138f795bdd6b5ecb))
+
 ### [0.9.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v0.9.10...v0.9.11) (2021-07-08)
 
 
