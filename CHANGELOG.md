@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.4](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.3...v10.0.4) (2021-07-09)
+
+
+### Bug Fixes
+
+* added preload ot first image ([a190e33](https://github.com/justinwilliamsrva/react-portfolio/commit/a190e33cbdf33ab2995b92f5e9512d5d268116c2))
+
 ### [10.0.3](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.2...v10.0.3) (2021-07-08)
 
 
