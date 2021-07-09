@@ -9,7 +9,7 @@ export default function Home() {
       <div id="home" className="container">
         <div className="personal">
           {/* <div id="profile"> */}
-          <img id="profile" src="/Justin-min.jpg" />
+          <img rel="preload" id="profile" src="/Justin-min.jpg" />
           {/* </div> */}
 
           <h2>Justin Williams</h2>
@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <div className="info">
                   <p>
-                    <b>BA in Music Education</b>
+                    <b>Bachelor of Arts - Music Education</b>
                   </p>
                   <p>Virginia Commonwealth University</p>
                 </div>
