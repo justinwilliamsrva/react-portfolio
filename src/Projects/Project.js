@@ -36,7 +36,7 @@ export default function Project({ props }) {
           </div>
         </div>
       ) : (
-        <div className="flex-container zoom project-card-reverse">
+        <div className={`${props.title} zoom flex-container project-card`}>
           <div className="card-right">
             <h3>{props.title}</h3>
             <div className="project-link-list">
