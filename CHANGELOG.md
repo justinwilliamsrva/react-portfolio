@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.6](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.5...v10.0.6) (2021-08-09)
+
+
+### Bug Fixes
+
+* fixed image alt, link for Passacaglia, fors to htmlfor and few class to class names ([bdcbda6](https://github.com/justinwilliamsrva/react-portfolio/commit/bdcbda6625726f5a6677ae50950b4723657c903d))
+
 ### [10.0.5](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.4...v10.0.5) (2021-07-14)
 
 
