@@ -34,7 +34,7 @@ const videos = [
     composer: "Handel-Halvorsen",
     date: "May 23, 2021",
     photo: "/maxresdefault.jpg",
-    link: "https://www.chesterfieldobserver.com/articles/at-clover-hill-a-youth-string-orchestra-preps-for-its-debut/",
+    link: "https://www.youtube.com/watch?v=7zU3u7V7tzM",
   },
 ];
 

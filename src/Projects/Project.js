@@ -2,7 +2,6 @@ import React from "react";
 
 export default function Project({ props }) {
   const techs = props.techs;
-  console.log(techs);
 
   return (
     <div>
@@ -13,24 +12,34 @@ export default function Project({ props }) {
               loading="lazy"
               className="project-image"
               src={props.img}
-              alt="image"
+              alt={props.title}
             />
           </div>
           <div className="card-right">
             <h3>{props.title}</h3>
             <div className="project-link-list">
-              <a className="project-link" href={props.link} target="_blank">
+              <a
+                className="project-link"
+                rel="noreferrer"
+                href={props.link}
+                target="_blank">
                 Check it Out
               </a>
 
-              <a className="project-link" href={props.github} target="_blank">
+              <a
+                className="project-link"
+                rel="noreferrer"
+                href={props.github}
+                target="_blank">
                 Github
               </a>
             </div>
             <p>{props.description}</p>
             <ul className="tech-list">
               {techs.map((tech) => (
-                <li className="tech">{tech}</li>
+                <li className="tech" key={tech}>
+                  {tech}
+                </li>
               ))}
             </ul>
           </div>
@@ -40,18 +49,28 @@ export default function Project({ props }) {
           <div className="card-right">
             <h3>{props.title}</h3>
             <div className="project-link-list">
-              <a className="project-link" href={props.link} target="_blank">
+              <a
+                className="project-link"
+                rel="noreferrer"
+                href={props.link}
+                target="_blank">
                 Check it Out
               </a>
 
-              <a className="project-link" href={props.github} target="_blank">
+              <a
+                className="project-link"
+                rel="noreferrer"
+                href={props.github}
+                target="_blank">
                 Github
               </a>
             </div>
             <p>{props.description}</p>
             <ul className="tech-list">
               {techs.map((tech) => (
-                <li className="tech">{tech}</li>
+                <li className="tech" key={tech}>
+                  {tech}
+                </li>
               ))}
             </ul>
           </div>
@@ -60,7 +79,7 @@ export default function Project({ props }) {
               loading="lazy"
               className="project-image"
               src={props.img}
-              alt="images"
+              alt={props.title}
             />
           </div>
         </div>

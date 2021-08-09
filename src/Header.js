@@ -8,7 +8,7 @@ export default function Header() {
           Justin Williams
         </a>
       </h1>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" className="nav-toggle" />
       <nav>
         <ul>
           <li>
@@ -39,7 +39,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <label for="nav-toggle" class="nav-toggle-label">
+      <label htmlFor="nav-toggle" className="nav-toggle-label">
         <span></span>
       </label>
     </header>
