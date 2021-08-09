@@ -9,13 +9,7 @@ export default function Home() {
       <div id="home" className="container">
         <div className="personal">
           {/* <div id="profile"> */}
-          <img
-            rel="preload"
-            alt="justin williams"
-            id="profile"
-            src="/Justin-min.jpg"
-            as="image"
-          />
+          <img alt="justin williams" id="profile" src="/Justin-min.jpg" />
           {/* </div> */}
 
           <h2>Justin Williams</h2>

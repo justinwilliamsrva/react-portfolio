@@ -32,7 +32,7 @@ export default function Skills() {
             <h3>Additional</h3>
             <p>
               Version Control, JWT, GIT, Jest, Conventional Commits, Notion,
-              Figma
+              Figma, Heroku
             </p>
           </div>
         </div>
