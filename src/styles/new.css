@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap");
 
 :root {
   --primary-bg-color: snow;
@@ -593,9 +593,9 @@ nav a:active {
 #home h3 {
   margin-top: 0;
 }
-#home p {
+/* #home p {
   font-size: 100%;
-}
+} */
 #bio > h2 {
   margin-top: 20px;
 }
@@ -652,7 +652,7 @@ nav a:active {
 }
 
 @media screen and (max-width: 370px) {
-  #home p,
+  div.info > p:nth-child(2),
   .job-list {
     font-size: 0.8rem;
   }
