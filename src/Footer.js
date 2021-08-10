@@ -4,7 +4,24 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function Footer() {
   const [state, handleSubmit] = useForm("mzbydrrr");
   if (state.succeeded) {
-    console.log(state);
+    return (
+      <>
+        <section className="section-header" id="contact">
+          <p>Thank you for the message. I will back to you shortly</p>
+        </section>
+        <div className="bg-dark" id="footer">
+          This site is built using{" "}
+          <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
+            React
+          </a>{" "}
+          <br className="p-break" />
+          and is hosted at{" "}
+          <a href="https://heroku.com/" rel="noreferrer" target="_blank">
+            Heroku
+          </a>
+        </div>
+      </>
+    );
   }
   return (
     <>

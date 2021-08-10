@@ -557,7 +557,7 @@ nav a:active {
 }
 
 #footer > a {
-  color: blue;
+  color: var(--secondary-text-color);
 }
 
 #content {

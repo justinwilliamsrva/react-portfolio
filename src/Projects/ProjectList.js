@@ -8,7 +8,7 @@ const projects = [
     description:
       "Easily find local art pieces and breweries with the power of Google's API. The app also considers your local weather conditions and offers advice on whether you should venture on foot or wear a coat on your travels.",
     img: "/Spirted.JPG",
-    techs: ["JQuery", "Material", "AJAX"],
+    techs: ["JQuery", "Material-UI", "AJAX"],
     link: "https://justinwilliamsrva.github.io/Spirited-Scenery/",
     github: "https://github.com/justinwilliamsrva/Spirited-Scenery",
   },
