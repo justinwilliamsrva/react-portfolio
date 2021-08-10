@@ -1,0 +1,9 @@
+.skills-section {
+  flex: 1;
+}
+
+.skills-section > img {
+  width: 125px;
+  height: 125px;
+  margin: auto;
+}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./styles/home.css";
 
 export default function Home() {
   const [isToggledCcps, setIsToggledCcps] = useState(false);

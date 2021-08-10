@@ -1,5 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import "./styles/footer.css";
+
 
 export default function Footer() {
   const [state, handleSubmit] = useForm("mzbydrrr");
