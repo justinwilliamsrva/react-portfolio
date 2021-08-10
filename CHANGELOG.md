@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.11...v10.0.12) (2021-08-10)
+
+
+### Bug Fixes
+
+* changed footer text to blue, added ui to Material ui in prokect, and fixed the contact form submit return in the footer ([3a38a62](https://github.com/justinwilliamsrva/react-portfolio/commit/3a38a62cae3361a5e075a8bb9fb1e3bfbcc29325))
+
 ### [10.0.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.10...v10.0.11) (2021-08-10)
 
 
