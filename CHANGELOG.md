@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [10.1.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.13...v10.1.0) (2021-08-10)
+
+
+### Features
+
+* changed teh css files to correspond to components ([90f4deb](https://github.com/justinwilliamsrva/react-portfolio/commit/90f4deb03054f2618ffae8711dd825b0f3e490e3))
+
 ### [10.0.13](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.12...v10.0.13) (2021-08-10)
 
 ### [10.0.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.11...v10.0.12) (2021-08-10)
