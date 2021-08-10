@@ -218,7 +218,9 @@ p {
   padding: 0;
 }
 .tech {
-  border: 1px solid var(--primary-bg-color);
+  color: var(--secondary-text-color);
+  border: 1px ridge var(--primary-bg-color);
+  border-radius: 4px;
   margin: 5px;
   background-color: var(--secondary-bg-color);
 }
@@ -231,8 +233,8 @@ p {
   font-weight: bold;
 }
 .project-link {
-  background-color: var(--secondary-bg-color);
-  color: var(--text-color);
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-bg-color);
   border: 1px var(--secondary-bg-color) solid;
   border-radius: 4px;
   text-decoration: none;
@@ -243,7 +245,8 @@ p {
 }
 
 .project-link:hover {
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-bg-color);
 }
 
 @media only screen and (max-width: 40em) {
