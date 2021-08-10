@@ -26,6 +26,11 @@ p {
   /* margin: 0; */
 }
 
+h1,
+h2 {
+  font-size: 2rem;
+}
+
 body {
   font-family: var(--ff-primary);
   font-weight: 400;
