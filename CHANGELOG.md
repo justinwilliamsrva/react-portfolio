@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.9](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.8...v10.0.9) (2021-08-10)
+
+
+### Bug Fixes
+
+* fixed preloading issues with the Home profile page and google fonts ([f0f766b](https://github.com/justinwilliamsrva/react-portfolio/commit/f0f766bfe7e1e6b00a801e095c55fed0cf7bb2db))
+
 ### [10.0.8](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.7...v10.0.8) (2021-08-09)
 
 
