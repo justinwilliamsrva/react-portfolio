@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [10.0.13](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.12...v10.0.13) (2021-08-10)
+
 ### [10.0.12](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.11...v10.0.12) (2021-08-10)
 
 
