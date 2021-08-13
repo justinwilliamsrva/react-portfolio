@@ -35,7 +35,7 @@ export default function Footer() {
               errors={state.errors}
             />
             <button id="submit" type="submit" disabled={state.submitting}>
-              Submit
+              Submits
             </button>
           </form>
         </div>
