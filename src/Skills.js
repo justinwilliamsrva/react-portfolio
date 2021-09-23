@@ -15,7 +15,10 @@ export default function Skills() {
               src="/responsive.png"
             />
             <h3>Front-End</h3>
-            <p>HTML, CSS Libraries, JavaScript, React, Responsive Design </p>
+            <p>
+              HTML, CSS Libraries(Bootstrap, Tailwind), JavaScript, React,
+              Responsive Design{" "}
+            </p>
           </div>
           <div className="skills-section" id="back-end">
             <img
@@ -25,7 +28,7 @@ export default function Skills() {
               src="/server.png"
             />
             <h3>Back-End</h3>
-            <p>Node, Express, MongoDB, MySql, NPM, Postman </p>
+            <p>Node, Express, MongoDB, MySql, NPM, Postman, Laravel </p>
           </div>
           <div className="skills-section" id="additional">
             <img loading="lazy" alt="list" className="zoom" src="/list.png" />
