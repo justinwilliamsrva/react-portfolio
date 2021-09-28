@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.1.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.0.0...v11.1.0) (2021-09-28)
+
+
+### Features
+
+* adding new project ([86e4afd](https://github.com/justinwilliamsrva/react-portfolio/commit/86e4afd28e923ac4814b15bad23871a92bbb1b25))
+
 ## 11.0.0 (2021-09-23)
 
 
