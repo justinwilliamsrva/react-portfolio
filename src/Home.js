@@ -21,25 +21,29 @@ export default function Home() {
             <a
               href="https://github.com/justinwilliamsrva"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <img className="icons-icon" src="/github.png" alt="github" />
             </a>
             <a
               href="https://twitter.com/jwRVAdev"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <img className="icons-icon" src="/twitter.png" alt="twitter" />
             </a>
             <a
               href="https://www.linkedin.com/in/justinwilliamsrva/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <img className="icons-icon" src="/linkedin.png" alt="LinkedIn" />
             </a>
             <a
               href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <img className="icons-icon" src="/cv.png" alt="resume" />
             </a>
           </div>
@@ -118,25 +122,31 @@ export default function Home() {
                   </p>
                   <p>Chesterfield County Public Schools</p>
                   <div id={isToggledCcps ? "job-ccps" : "none-ccps"}>
-                    <ul className={isToggledCcps ? "job-list" : "none-list"}>
-                      <li>
+                    <ul
+                      className={`${
+                        isToggledCcps ? "job-list" : "none-list"
+                      } padding`}
+                    >
+                      <li className="padding">
                         Programmed an online RPG to increase student motivation
                         during virtual learning and an Orchestra Website to keep
                         parents informed.
                       </li>
-                      <li>
+                      <li className="padding">
                         Founded a new ensemble that performed for RVA music
                         festivals and opened for the Richmond Symphony.
                       </li>
-                      <li>
+                      <li className="padding">
                         Earned Superiors with two separate Grade 6 Orchestras at
                         the 2019 VBODA District 3 Assessment.
                       </li>
-                      <li>
+                      <li className="padding">
                         Provided and hosted many after-school activities,
                         concerts and competitions
                       </li>
-                      <li>Increased enrollment by 50% in first three years</li>
+                      <li className="padding">
+                        Increased enrollment by 50% in first three years
+                      </li>
                     </ul>
                     {/* </div> */}
                   </div>

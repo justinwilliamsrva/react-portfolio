@@ -4,6 +4,16 @@ import Project from "./Project";
 const projects = [
   {
     id: 1,
+    title: "Passport",
+    description:
+      "The world's simplest car maintenance management system that allows user login, keeps a database of user cars and car data, informs user of maitenance needs whether up to date, due soon or past due",
+    img: "passport.PNG",
+    techs: ["React", "Tailwind", "Lararvel"],
+    link: "https://passportcar.com/",
+    github: "https://github.com/justinwilliamsrva/cartracker",
+  },
+  {
+    id: 2,
     title: "Spirited Scenery",
     description:
       "Easily find local art pieces and breweries with the power of Google's API. The app also considers your local weather conditions and offers advice on whether you should venture on foot or wear a coat on your travels.",
@@ -13,26 +23,17 @@ const projects = [
     github: "https://github.com/justinwilliamsrva/Spirited-Scenery",
   },
   {
-    id: 2,
+    id: 3,
     title: "Orchestra RPG",
     description:
-      "Users can learn scales, shifting and bow technique during mandated virtual learning. Students login into their  profile, turn-in assignments, receive teacher feedback, and compare progress to the rest of the class.",
+      "Users can learn technique mandated virtual learning. Students login into their  profile, turn-in assignments, receive teacher feedback, and compare progress to the rest of the class.",
     img: "rpg-photo.JPG",
     techs: ["HTML", "CSS", "JavaScript"],
     link: "https://cavorch.org/orchestra/rpg.html",
     github:
       "https://github.com/justinwilliamsrva/chhsorchestra/tree/master/orchestra",
   },
-  {
-    id: 3,
-    title: "CHHS Orchestra",
-    description:
-      "Static website that displays the orchestra info, conductor information, orchestra news, the calendar for parents and includes important links for students",
-    img: "cavorch.JPG",
-    techs: ["HTML", "CSS", "JavaScript"],
-    link: "https://cavorch.org/",
-    github: "https://github.com/justinwilliamsrva/chhsorchestra",
-  },
+
   {
     id: 4,
     title: "Summer Camp Staff App",

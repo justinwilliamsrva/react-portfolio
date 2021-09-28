@@ -24,6 +24,11 @@ code {
     monospace;
 }
 
+.padding {
+  padding: 25px;
+}
+
+
 h1 {
   color: var(--secondary-bg-color);
 }
