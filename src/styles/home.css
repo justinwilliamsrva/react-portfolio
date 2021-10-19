@@ -1,0 +1,367 @@
+#home {
+  display: flex;
+  background-color: var(--primary-bg-color);
+  /* margin-top: 85px; */
+  /* height: 500px; */
+  color: var(--text-color);
+  padding-bottom: 20px;
+  line-height: 1.6rem;
+}
+
+.personal {
+  background-color: var(--primary-bg-color);
+  flex: 1;
+  height: 100%;
+  margin-right: 5px;
+}
+.personal > h2,
+.personal > h3,
+.personal > div {
+  margin-bottom: 0.5em;
+}
+.biography {
+  background-color: var(--primary-bg-color);
+  flex: 2;
+  height: 100%;
+}
+#home h2 {
+  margin: 10px 0px;
+}
+#home h3 {
+  margin-top: 0;
+}
+/* #home p {
+    font-size: 100%;
+  } */
+#bio > h2 {
+  margin-top: 20px;
+}
+
+#bio > p:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.personal > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#icons {
+  display: flex;
+  justify-content: center;
+}
+
+#icons > a {
+  margin: 0px 7px;
+}
+.icons-icon {
+  width: 30px;
+  height: 30px;
+
+  -webkit-transition: -webkit-transform 0.7s;
+  -moz-transition: -moz-transform 0.7s;
+  -ms-transition: -ms-transform 0.7s;
+  -o-transition: -o-transform 0.7s;
+  transition: transform 0.7s;
+}
+.icons-icon:hover {
+  -webkit-transform: scale(1.3, 1.3);
+  -moz-transform: scale(1.3, 1.3);
+  -ms-transform: scale(1.3, 1.3);
+  -o-transform: scale(1.3, 1.3);
+  transform: scale(1.3, 1.3);
+}
+
+#bio {
+  display: block;
+  text-align: start;
+}
+#education {
+  display: flex;
+  text-align: start;
+}
+
+#education > div {
+  flex: 1;
+}
+
+@media screen and (max-width: 370px) {
+  div.info > p:nth-child(2),
+  .job-list {
+    font-size: 0.8rem;
+  }
+}
+#current-learn {
+  margin-top: 0;
+}
+#current-learn > li {
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+#love {
+  color: var(--secondary-bg-color);
+  font-weight: bolder;
+}
+.school > .info > p {
+  margin: 0;
+}
+
+.school > .icon {
+  float: left;
+  margin: 10px 25px;
+}
+
+.school > .vcu-icon {
+  float: left;
+  margin: 10px 5px;
+}
+.school > .icon > #uor {
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+}
+.school > .icon-ex {
+  float: left;
+  margin: 0px 30px;
+}
+.school > .icon-ex > .arrow {
+  height: 20px;
+  width: 20px;
+  margin: 15px 0px;
+  cursor: pointer;
+  transition-duration: 450ms;
+}
+.school > .icon-ex > .rotate {
+  height: 20px;
+  width: 20px;
+  margin: 20px 0px 10px 0px;
+  transform: rotate(90deg);
+}
+
+@media screen and (min-width: 900px) {
+  .school > .icon-ex > .arrow:hover {
+  }
+  .school > .icon-ex > .rotate:hover {
+    transform: rotate(90deg);
+  }
+}
+
+.school > .vcu-icon > #vcu {
+  height: 30px;
+  width: 69px;
+  margin: 0px;
+}
+
+#job-ccps {
+  height: 350px;
+  transition: width 2s, height 450ms, transform 2s;
+}
+#none-ccps {
+  height: 0px;
+  transition: width 2s, height 600ms, transform 2s;
+}
+#job-fcps {
+  height: 60px;
+  transition: width 2s, height 450ms, transform 2s;
+}
+
+@media screen and (max-width: 1260px) and (min-width: 1170px) {
+  #job-ccps {
+    height: 400px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 1169px) and (min-width: 1146px) {
+  #job-ccps {
+    height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 1145px) and (min-width: 1075px) {
+  #job-ccps {
+    height: 250px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 1074px) and (min-width: 970px) {
+  #job-ccps {
+    height: 300px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 969px) and (min-width: 841px) {
+  #job-ccps {
+    height: 350px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 841px) and (min-width: 801px) {
+  #job-ccps {
+    height: 400px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 800px) and (min-width: 650px) {
+  #job-ccps {
+    height: 200px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 649px) and (min-width: 550px) {
+  #job-ccps {
+    height: 250px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 549px) and (min-width: 490px) {
+  #job-ccps {
+    height: 300px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 489px) and (min-width: 420px) {
+  #job-ccps {
+    height: 350px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 420px) and (min-width: 390px) {
+  #job-ccps {
+    height: 400px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 389px) and (min-width: 375px) {
+  #job-ccps {
+    height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 374px) and (min-width: 371px) {
+  #job-ccps {
+    height: 470px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-fcps {
+    height: 70px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 370px) and (min-width: 340px) {
+  #job-ccps {
+    height: 400px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 339px) and (min-width: 322px) {
+  #job-ccps {
+    height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 321px) and (min-width: 250px) {
+  #job-ccps {
+    height: 500px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-fcps {
+    height: 150px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 321px) and (min-width: 290px) {
+  #job-ccps {
+    height: 500px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-fcps {
+    height: 150px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+@media screen and (max-width: 289px) {
+  #job-ccps {
+    height: 700px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-fcps {
+    height: 300px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+
+.none-list {
+  /* display: none; */
+  margin-top: 0;
+
+  padding-left: 100px;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+.none-list > li {
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+.job-list {
+  margin-top: 0;
+
+  padding-left: 100px;
+  transform: scale(1, 1);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+.job-list > li {
+  opacity: 1;
+  transition: opacity 150ms ease-in-out 150ms;
+}
+
+@media screen and (max-width: 1145px) and (min-width: 800px) {
+  #home {
+    flex-direction: column;
+  }
+  /* #icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 5px 30vw 0px 30vw;
+    } */
+  .personal {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #home,
+  #education {
+    display: block;
+  }
+  #home h2 {
+    text-align: center;
+    margin-top: 2rem;
+    /* text-decoration: underline; */
+  }
+  /* #icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      padding: 0 20vw;
+      margin: 0 auto;
+    } */
+  .personal {
+    margin: 0;
+  }
+}

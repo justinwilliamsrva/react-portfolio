@@ -1,14 +1,14 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import "./styles/footer.css";
 
 export default function Footer() {
   const [state, handleSubmit] = useForm("mzbydrrr");
   if (state.succeeded) {
-    console.log(state);
     return (
       <>
         <section className="bg-lightr" id="contact">
-        <div className="container container--narrow">
+          <div className="container container--narrow">
             <h2>Contact Form</h2>
             <form onSubmit={handleSubmit}>
               <label htmlFor="name"></label>
@@ -30,7 +30,8 @@ export default function Footer() {
                 id="message"
                 name="message"
                 placeholder="Message"
-                cols="30"></textarea>
+                cols="30"
+              ></textarea>
               <ValidationError
                 prefix="Message"
                 field="message"
@@ -45,26 +46,23 @@ export default function Footer() {
             Thank you
           </div>
         </section>
-        <section className="bg-dark" id="footer">
-          This site is build using{" "}
+        <div className="bg-dark" id="footer">
+          This site is built using{" "}
           <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
             React
           </a>{" "}
+          <br className="p-break" />
           and is hosted at{" "}
-          <a href="https://vercel.com/" rel="noreferrer" target="_blank">
-            Vercel
+          <a href="https://heroku.com/" rel="noreferrer" target="_blank">
+            Heroku
           </a>
-        </section>
+        </div>
       </>
     );
-
-
-
   }
   return (
     <>
       <section className="section-header" id="contact">
-      
         <div className="container container--narrow">
           <h2>Contact Form</h2>
           <form onSubmit={handleSubmit}>
@@ -83,7 +81,8 @@ export default function Footer() {
               id="message"
               name="message"
               placeholder="Message"
-              cols="30"></textarea>
+              cols="30"
+            ></textarea>
             <ValidationError
               prefix="Message"
               field="message"

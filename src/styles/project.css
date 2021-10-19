@@ -1,0 +1,138 @@
+#project-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#project-div > div {
+  flex: 0 0 49%;
+}
+@media screen and (max-width: 1145px) {
+  #project-div {
+    flex-direction: column;
+  }
+}
+.project-card,
+.project-card-reverse {
+  border: 1px var(--secondary-bg-color) solid;
+  border-radius: 20px;
+  /* max-width: 50vw; */
+  height: 250px;
+  display: flex;
+  /* margin: 0 auto; */
+  overflow: hidden;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.project-card:hover,
+.project-card-reverse:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-card-reverse,
+.project-card {
+  flex-direction: row;
+}
+
+.card-left {
+  flex: 1;
+  overflow: hidden;
+}
+.card-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(232, 234, 235);
+}
+.card-right ul {
+  margin-bottom: 2px;
+}
+
+.card-right > div,
+.card-right > h3,
+.card-right > ul,
+.card-right > p {
+  /* height: 60px; */
+  margin: 3px 0px 3px 0px;
+  /* font-size: 0.5rem; */
+  /* margin-top: 0; */
+  /* color: red; */
+}
+.card-right > p {
+  font-size: 0.8rem;
+}
+
+.card-right > ul > li {
+  padding: 5px;
+  font-size: 0.7rem;
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
+}
+
+.tech-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.tech {
+  color: var(--secondary-text-color);
+  border: 1px ridge var(--primary-bg-color);
+  border-radius: 4px;
+  margin: 5px;
+  background-color: var(--secondary-bg-color);
+}
+.project-link-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: bold;
+}
+.project-link {
+  background-color: var(--primary-bg-color);
+  color: var(--secondary-bg-color);
+  border: 1px var(--secondary-bg-color) solid;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 5px;
+  padding: 2px;
+
+  cursor: pointer;
+}
+
+.project-link:hover {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-bg-color);
+}
+
+@media only screen and (max-width: 40em) {
+  .project-card,
+  .project-card-reverse {
+    height: 150px;
+  }
+
+  .card-right > h3 {
+    font-size: 0.8rem;
+  }
+
+  .card-right > div,
+  .card-right > p,
+  .card-right > ul > li {
+    font-size: 0.5rem;
+  }
+
+  .card-top > ul > li {
+    padding: 2px;
+  }
+  h3 {
+    margin-bottom: 5px;
+  }
+}

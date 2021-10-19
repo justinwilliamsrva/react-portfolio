@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<<<<<<< HEAD
 ### [11.1.1](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.1.0...v11.1.1) (2021-10-19)
 
 ## [11.1.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.0.0...v11.1.0) (2021-09-28)
 
-
 ### Features
+
 
 * adding new project ([86e4afd](https://github.com/justinwilliamsrva/react-portfolio/commit/86e4afd28e923ac4814b15bad23871a92bbb1b25))
 
@@ -66,9 +67,9 @@ until updated to support this new name for this header.
 * Short ([ffae346](https://github.com/justinwilliamsrva/react-portfolio/commit/ffae34662be551c0afadfe939bcda045bac916f8))
 * working contact form with formspree  and sec background for footer ([f2052fd](https://github.com/justinwilliamsrva/react-portfolio/commit/f2052fd2b841f18efdff223e7f3c9793045f5d49))
 
-
 ### Bug Fixes
 
+<<<<<<< HEAD
 * added as to preload lags ([5966c8a](https://github.com/justinwilliamsrva/react-portfolio/commit/5966c8ac9f71f7b3346fbd10be77fd7f5ff11429))
 * added CV,updated bio,changed sizing of skills icons ([fec2926](https://github.com/justinwilliamsrva/react-portfolio/commit/fec2926f201758255125225ec746cd36fddc9a14))
 * Added images ([bd97f91](https://github.com/justinwilliamsrva/react-portfolio/commit/bd97f915a73ba06c3a9d566fdb4d616473044612))
@@ -109,6 +110,9 @@ until updated to support this new name for this header.
 * new profile picture ([8c04e36](https://github.com/justinwilliamsrva/react-portfolio/commit/8c04e36663492ecbc4b7a3ac3793203dd6d693bd))
 * properly cropped images for projects ([fae9bb0](https://github.com/justinwilliamsrva/react-portfolio/commit/fae9bb00c26649ebb0444d384c9b73ee7cdfbaa7))
 * removed extra letter in skills ([4621ec9](https://github.com/justinwilliamsrva/react-portfolio/commit/4621ec92b9a635ddf616beb93b3bfa980282d440))
+=======
+* changed footer text to blue, added ui to Material ui in prokect, and fixed the contact form submit return in the footer ([3a38a62](https://github.com/justinwilliamsrva/react-portfolio/commit/3a38a62cae3361a5e075a8bb9fb1e3bfbcc29325))
+>>>>>>> 48251659d6a8aab247efdbcb1bd0931faf1f6949
 
 ### [10.0.11](https://github.com/justinwilliamsrva/react-portfolio/compare/v10.0.10...v10.0.11) (2021-08-10)
 

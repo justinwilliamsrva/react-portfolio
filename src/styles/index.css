@@ -39,7 +39,7 @@ body {
   margin: 0;
 }
 section {
-  padding: 2rem 0 5rem 0
+  padding: 5rem 0;
 }
 .container--narrow {
   max-width: 44rem;
@@ -69,11 +69,7 @@ h3 {
 h2,
 h3,
 p {
-  margin-bottom: 2em;
-}
-
-h2{
-  font-size: xx-large;
+  margin-bottom: 1em;
 }
 
 .bg-primary {
