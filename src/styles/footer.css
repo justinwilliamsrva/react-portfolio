@@ -88,12 +88,34 @@ button[type="submit"]:hover {
 }
 
 #footer {
-  padding: 15px;
+  padding-top: 20px;
   position: relative;
   margin-top: -50px;
-  height: 60px;
+  height: 70px;
+  font-size: large ;
 }
+.only-small{
+  display: inline;
 
+
+}
+@media only screen and (max-width: 40em) {
+  #footer {
+    padding-top: 5px;
+    position: relative;
+    margin-top: -50px;
+    height: 70px;
+    font-size: large ;
+  }
+  .only-small{
+    display: none ;
+
+  
+  
+  }
+}
 #footer > a {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
+

@@ -123,10 +123,12 @@ p {
 .p-break {
   display: none;
 }
+
 @media only screen and (max-width: 40em) {
   .p-break {
     display: inline;
   }
+ 
 }
 
 #content {

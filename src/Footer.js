@@ -4,6 +4,9 @@ import "./styles/footer.css";
 
 export default function Footer() {
   const [state, handleSubmit] = useForm("mzbydrrr");
+  const d = new Date;
+let year = d.getFullYear();
+
   if (state.succeeded) {
     return (
       <>
@@ -43,19 +46,21 @@ export default function Footer() {
             </form>
           </div>
           <div id="status" className="success">
-            Thank you
+            Your Message Has Been Sent
           </div>
         </section>
         <div className="bg-dark" id="footer">
-          This site is built using{" "}
-          <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
-            React
-          </a>{" "}
-          <br className="p-break" />
-          and is hosted at{" "}
-          <a href="https://heroku.com/" rel="noreferrer" target="_blank">
-            Heroku
-          </a>
+        &copy;  <a href="https://justinwdev.com/" rel="noreferrer" target="_blank">Justin Williams</a>  {year} <span className="only-small">- </span>
+        <br className="p-break" />
+         This site is built using{" "}
+        <a href="https://reactjs.org/" rel="noreferrer" target="_blank"> 
+          React
+        </a>{" "}
+        <br className="p-break" />
+        and is hosted on{" "}
+        <a href="https://heroku.com/" rel="noreferrer" target="_blank">
+          Heroku
+        </a>
         </div>
       </>
     );
@@ -95,12 +100,14 @@ export default function Footer() {
         </div>
       </section>
       <div className="bg-dark" id="footer">
-        This site is built using{" "}
+      &copy;  <a href="https://justinwdev.com/" rel="noreferrer" target="_blank">Justin Williams</a>  {year} <span className="only-small">- </span>
+        <br className="p-break" />
+         This site is built using{" "}
         <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
           React
         </a>{" "}
         <br className="p-break" />
-        and is hosted at{" "}
+        and is hosted on{" "}
         <a href="https://heroku.com/" rel="noreferrer" target="_blank">
           Heroku
         </a>
