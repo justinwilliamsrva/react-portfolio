@@ -46,7 +46,7 @@ section {
 }
 .container {
   margin: auto;
-  width: min(90%, 70.5rem);
+  /* width: min(90%, 90rem); */
 }
 
 img {
