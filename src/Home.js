@@ -107,54 +107,7 @@ export default function Home() {
             </div>
             <div id="education-learn">
               <h2>Experience</h2>
-              <div className="school">
-                {/* U of R INFO */}
-                <div className="icon-ex">
-                  <img
-                    className={`arrow ${isToggledCcps && "rotate"} `}
-                    onClick={() => setIsToggledCcps(!isToggledCcps)}
-                    src="/Arrow-right.png"
-                    alt="arrow right"
-                  />
-                </div>
-                <div className="info">
-                  <p>
-                    <b>High School Teacher</b>
-                  </p>
-                  <p>Chesterfield County Public Schools</p>
-                  <div id={isToggledCcps ? "job-ccps" : "none-ccps"}>
-                    <ul
-                      className={`${
-                        isToggledCcps ? "job-list" : "none-list"
-                      } padding`}
-                    >
-                      <li className="padding">
-                        Programmed an online RPG to increase student motivation
-                        during virtual learning and an Orchestra Website to keep
-                        parents informed.
-                      </li>
-                      <li className="padding">
-                        Founded a new ensemble that performed for RVA music
-                        festivals and opened for the Richmond Symphony.
-                      </li>
-                      <li className="padding">
-                        Earned Superiors with two separate Grade 6 Orchestras at
-                        the 2019 VBODA District 3 Assessment.
-                      </li>
-                      <li className="padding">
-                        Provided and hosted many after-school activities,
-                        concerts and competitions
-                      </li>
-                      <li className="padding">
-                        Increased enrollment by 50% in first three years
-                      </li>
-                    </ul>
-                    {/* </div> */}
-                  </div>
-                </div>
-              </div>
-              <br />
-              {/* VCU INFO */}
+
               <div className="school">
                 {/* U of R INFO */}
                 <div className="icon-ex">
@@ -167,21 +120,62 @@ export default function Home() {
                 </div>
                 <div className="info">
                   <p>
-                    <b>Orchestra Director</b>
+                    <b>Web Developer</b>
                   </p>
-                  <p>Fairfax County Public Schools</p>
-                  <div id={isToggledFcps ? "job-fcps" : "none-ccps"}>
-                    <ul className={isToggledFcps ? "job-list" : "none-list"}>
-                      <li>
-                        Co-directed the two largest orchestra programs in
-                        Virginia
+                  <p>Ameronix</p>
+                  <div id={isToggledFcps ? "job-fcps" : "none-fcps"}>
+                    <ul
+                      className={`${
+                        isToggledFcps ? "job-list" : "none-list"
+                      } padding`}
+                    >
+                      <li className="padding">
+                        Updated a website written in  Laravel 5 running PHP 7.1 to Laravel 8 runnining PHP 8. Upgraded invoiced remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, subsituting depreciated packages etc.
                       </li>
-                      <li>
-                        Helped Organize and facilitate a 100+ student trip to
-                        Myrtle Beach
+                      <li className="padding">
+                        Wrote tests for CRUD actions, auth routes, form validation, file uploads/downloads, and levels of user access in PHPunit
                       </li>
-                      <li>
-                        Increased enrollment at two elementary schools by 30%
+                      <li className="padding">
+                        Created Advanced SQL quereies for csv exports
+                      </li>
+                      <li className="padding">
+                        Refactored Website Deisgn in Foundation css and added repsonsive design 
+                      </li>
+                    </ul>
+                    {/* </div> */}
+                  </div>
+                </div>
+              </div>
+              <br />
+              {/* VCU INFO */}
+              <div className="school">
+                {/* U of R INFO */}
+                <div className="icon-ex">
+                  <img
+                    className={`arrow ${isToggledCcps && "rotate"} `}
+                    onClick={() => setIsToggledCcps(!isToggledCcps)}
+                    src="/Arrow-right.png"
+                    alt="arrow right"
+                  />
+                </div>
+                <div className="info">
+                  <p>
+                    <b>Freelance Developer</b>
+                  </p>
+                  <p>Self-Employed</p>
+                  <div id={isToggledCcps ? "job-ccps" : "none-ccps"}>
+                    <ul
+                      className={`${
+                        isToggledCcps ? "job-list" : "none-list"
+                      } padding`}
+                    >
+                      <li className="padding">
+                        Created an online learning web app for the Clover Hill
+                        High school Orchestra, so students could keep track of
+                        progress during mandated online learning
+                      </li>
+                      <li className="padding">
+                        Updated the layout for Madonna Photography with a accesisble color scheme and responsive design
                       </li>
                     </ul>
                     {/* </div> */}
