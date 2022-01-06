@@ -130,7 +130,7 @@ export default function Home() {
                       } padding`}
                     >
                       <li className="padding">
-                        Updated website written in Laravel 5 running PHP 7.1 to Laravel 8 running PHP 8. Invoiced remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, substituting depreciated packages etc.
+                        Updated website written in Laravel 5 running PHP 7.1 to Laravel 8 running PHP 8. Involved remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, managing package updates etc.
                       </li>
                       <li className="padding">
                         Wrote tests for CRUD operations, auth routes, form validation, file uploads/downloads, and levels of user access in PHPunit
