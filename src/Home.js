@@ -130,16 +130,16 @@ export default function Home() {
                       } padding`}
                     >
                       <li className="padding">
-                        Updated a website written in  Laravel 5 running PHP 7.1 to Laravel 8 runnining PHP 8. Upgraded invoiced remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, subsituting depreciated packages etc.
+                        Updated website written in Laravel 5 running PHP 7.1 to Laravel 8 running PHP 8. Invoiced remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, substituting depreciated packages etc.
                       </li>
                       <li className="padding">
-                        Wrote tests for CRUD actions, auth routes, form validation, file uploads/downloads, and levels of user access in PHPunit
+                        Wrote tests for CRUD operations, auth routes, form validation, file uploads/downloads, and levels of user access in PHPunit
                       </li>
                       <li className="padding">
-                        Created Advanced SQL quereies for csv exports
+                        Created Advanced SQL queries for csv exports
                       </li>
                       <li className="padding">
-                        Refactored Website Deisgn in Foundation css and added repsonsive design 
+                        Refactored website design in Foundation css and added responsive design 
                       </li>
                     </ul>
                     {/* </div> */}
@@ -171,11 +171,11 @@ export default function Home() {
                     >
                       <li className="padding">
                         Created an online learning web app for the Clover Hill
-                        High school Orchestra, so students could keep track of
-                        progress during mandated online learning
+                        High School Orchestra during mandated online learning. Students could create a character,  keep track of
+                        progress, see new assignments, compare progress with other students. Teachers could grade and give student feedback easier as well as monitor class progress.
                       </li>
                       <li className="padding">
-                        Updated the layout for Madonna Photography with a accesisble color scheme and responsive design
+                        Updated the layout for Madonna Photography with an accessible color scheme and responsive design
                       </li>
                     </ul>
                     {/* </div> */}
