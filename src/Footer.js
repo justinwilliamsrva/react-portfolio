@@ -10,7 +10,7 @@ let year = d.getFullYear();
   if (state.succeeded) {
     return (
       <>
-        <section className="bg-lightr" id="contact">
+        <section className="bg-primary" id="contact">
           <div className="container container--narrow">
             <h2>Contact Form</h2>
             <form onSubmit={handleSubmit}>
@@ -50,10 +50,10 @@ let year = d.getFullYear();
           </div>
         </section>
         <div className="bg-dark" id="footer">
-        &copy;  <a href="https://justinwdev.com/" rel="noreferrer" target="_blank">Justin Williams</a>  {year} <span className="only-small">- </span>
+      &copy;  <a href="https://justinwdev.com/" rel="noreferrer" target="_blank">Justin Williams</a>  {year} <span className="only-small">- </span>
         <br className="p-break" />
          This site is built using{" "}
-        <a href="https://reactjs.org/" rel="noreferrer" target="_blank"> 
+        <a href="https://reactjs.org/" rel="noreferrer" target="_blank">
           React
         </a>{" "}
         <br className="p-break" />
@@ -61,13 +61,13 @@ let year = d.getFullYear();
         <a href="https://heroku.com/" rel="noreferrer" target="_blank">
           Heroku
         </a>
-        </div>
+      </div>
       </>
     );
   }
   return (
     <>
-      <section className="section-header" id="contact">
+      <section className="section-header bg-primary" id="contact">
         <div className="container container--narrow">
           <h2>Contact Form</h2>
           <form onSubmit={handleSubmit}>

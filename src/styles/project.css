@@ -62,6 +62,8 @@
 }
 .card-right > p {
   font-size: 0.8rem;
+  margin: 0px 5px;
+    text-align: justify;
 }
 
 .card-right > ul > li {

@@ -20,7 +20,7 @@ textarea {
 
 /* Style the submit button with a specific background color etc */
 button[type="submit"] {
-  background-color: var(--primary-bg-color);
+  background-color: white;
   color: var(--secondary-bg-color);
   border: 1px var(--secondary-bg-color) solid;
   padding: 12px 20px;
@@ -32,7 +32,7 @@ button[type="submit"] {
 /* When moving the mouse over the submit button, add a darker green color */
 button[type="submit"]:hover {
   background-color: var(--secondary-bg-color);
-  color: var(--primary-bg-color);
+  color: white;
 }
 
 /* Add a background color and some padding around the form */
