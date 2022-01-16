@@ -61,14 +61,14 @@ export default function Home() {
             <p>
               <b>
                 Currently working at Ameronix, where I update subscriber
-                dashboards using Vue, Laravel, jQuery and various CSS frameworks. I especially
+                dashboards using Vue, Laravel, jQuery, and various CSS frameworks. I especially
                 love writing tests, creating responsive designs, and implementing component libraries. In my spare time, I am learning AWS, C#,
                 .NET, Dart, Strapi, and advanced CSS animations.
               </b>
             </p>
             <p>
               <b>
-                My passion for programming and problem solving allow me to thrive working independently or with a team of AGILE
+                My passion for programming and problem solving allows me to thrive working independently or with a team of AGILE
                 programmers. As a former educator, I am also an experienced presenter
                 whose reliability and communication skills will benefit any workplace
                 environment.
