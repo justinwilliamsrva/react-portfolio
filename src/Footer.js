@@ -4,7 +4,7 @@ import "./styles/footer.css";
 
 export default function Footer() {
   const [state, handleSubmit] = useForm("mzbydrrr");
-  const d = new Date;
+  const d = new Date();
 let year = d.getFullYear();
 
   if (state.succeeded) {

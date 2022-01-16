@@ -40,13 +40,13 @@ export default function Home() {
             >
               <img className="icons-icon" src="/linkedin.png" alt="LinkedIn" />
             </a>
-            {/* <a
-              href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
+            <a
+              href="https://dev.to/justinwilliamsrva"
               target="_blank"
               rel="noreferrer"
             >
-              <img className="icons-icon" src="/cv.png" alt="resume" />
-            </a> */}
+              <img className="icons-icon" src="/devto.png" alt="devto" />
+            </a>
           </div>
         </div>
         <div className="biography">
