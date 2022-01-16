@@ -54,25 +54,24 @@ export default function Home() {
             <h2>Biography</h2>
             <p>
               <b>
-                <span className="teal">Full-Stack Web Developer</span> with over
-                ten years of experience in primary and secondary education.
+                <span className="teal">Full-Stack Web Developer</span> based in
+                Richmond, Virginia utilizing Javascript and PHP frameworks.
               </b>
             </p>
             <p>
               <b>
-                I have a <span className="teal">passion</span> for programming
-                and I am gifted at resolving problems and applying new technical
-                skills. As a University of Richmond Coding Boot Camp Graduate, I
-                have the expertise to approach front-end and back-end challenges
-                independently or with a team of AGILE programmers. And as a
-                former educator, I am an experienced presenter whose reliability
-                and communication skills will benefit any workplace environment.
+                Currently working at Ameronix, where I update subscriber
+                dashboards using Vue, Laravel, jQuery and various CSS frameworks. I especially
+                love writing tests, creating responsive designs, and implementing component libraries. In my spare time, I am learning AWS, C#,
+                .NET, Dart, Strapi, and advanced CSS animations.
               </b>
             </p>
             <p>
               <b>
-                I am also a professional violinist who loves to perform whenever
-                I can!
+                My passion for programming and problem solving allow me to thrive working independently or with a team of AGILE
+                programmers. As a former educator, I am also an experienced presenter
+                whose reliability and communication skills will benefit any workplace
+                environment.
               </b>
             </p>
           </div>
