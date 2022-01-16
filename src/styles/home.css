@@ -158,28 +158,25 @@
 
 #job-fcps {
   height: 350px;
-  /* height controls speed down */
-
-  transition: width 2s, height 5s, transform 2s;
+  transition: width 2s, height 450ms, transform 2s;
 }
 #none-fcps {
   height: 0px;
-  /* height controls speed up */
-  transition: width 2s, height 5s, transform 2s;
+  transition: width 2s, height 600ms, transform 2s;
 }
 #none-ccps {
   height: 0px;
-  transition: width 2s, height 5s, transform 2s;
+  transition: width 2s, height 600ms, transform 2s;
 }
 #job-ccps {
   /* height: 60px; */
-  transition: width 2s, height 5s, transform 2s;
+  transition: width 2s, height 450ms, transform 2s;
 }
 
 @media screen and (max-width: 1260px) and (min-width: 1170px) {
   #job-fcps {
     height: 400px;
-    /* transition: width 2s, height 450ms, transform 2s; */
+    transition: width 2s, height 450ms, transform 2s;
   }
 }
 
@@ -317,11 +314,11 @@
   padding-left: 100px;
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform 5s ease-in-out;
+  transition: transform 400ms ease-in-out;
 }
 .none-list > li {
   opacity: 0;
-  transition: opacity 5s ease-in-out;
+  transition: opacity 150ms ease-in-out;
 }
 .job-list {
   margin-top: 0;
@@ -329,12 +326,11 @@
   padding-left: 100px;
   transform: scale(1, 1);
   transform-origin: top;
-  /* How hast text folds in and out */
-  transition: transform 450ms ease-in-out;
+  transition: transform 400ms ease-in-out;
 }
 .job-list > li {
   opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms;
+  transition: opacity 150ms ease-in-out 150ms;
 }
 
 @media screen and (max-width: 1145px) and (min-width: 800px) {
