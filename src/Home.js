@@ -40,18 +40,32 @@ export default function Home() {
             >
               <img className="icons-icon" src="/linkedin.png" alt="LinkedIn" />
             </a>
-            <a
+            {/* <a
               href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
               target="_blank"
               rel="noreferrer"
             >
               <img className="icons-icon" src="/cv.png" alt="resume" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="biography">
           <div id="bio">
-            <h2>Biography</h2>
+            <div className="bio-heading">
+              {" "}
+              <h2>Biography</h2>
+              {/* <a
+                href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <button className="resume-button zoom">
+                  <b>Resume</b>
+                </button>
+              </a> */}
+            </div>
+
             <p>
               <b>
                 <span className="teal">Full-Stack Web Developer</span> based in
@@ -61,19 +75,26 @@ export default function Home() {
             <p>
               <b>
                 Currently working at Ameronix, where I update subscriber
-                dashboards using Vue, Laravel, jQuery, and various CSS frameworks. I especially
-                love writing tests, creating responsive designs, and implementing component libraries. In my spare time, I am learning AWS, C#,
-                .NET, Dart, Strapi, and advanced CSS animations.
+                dashboards using Vue, Laravel, jQuery, and various CSS
+                frameworks. I especially love writing tests, creating responsive
+                designs, and implementing component libraries. In my spare time,
+                I am learning AWS, C#, .NET, Dart, Strapi, and advanced CSS
+                animations.
               </b>
             </p>
             <p>
               <b>
-                My passion for programming and problem solving allows me to thrive working independently or with a team of AGILE
-                programmers. As a former educator, I am also an experienced presenter
-                whose reliability and communication skills will benefit any workplace
-                environment.
+                My passion for programming and problem solving allows me to
+                thrive working independently or with a team of AGILE
+                programmers. As a former educator, I am also an experienced
+                presenter whose reliability and communication skills will
+                benefit any workplace environment.
               </b>
             </p>
+            <p><b>Further details of my skills and experience can be found on my <a  href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
+              target="_blank"
+              rel="noreferrer"
+              className="teal">Resume</a>.</b></p>
           </div>
           <div id="education">
             <div id="education-ed">
@@ -129,16 +150,22 @@ export default function Home() {
                       } padding`}
                     >
                       <li className="padding">
-                        Updated website written in Laravel 5 running PHP 7.1 to Laravel 8 running PHP 8. Involved remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, managing package updates etc.
+                        Updated website written in Laravel 5 running PHP 7.1 to
+                        Laravel 8 running PHP 8. Involved remaking the auth in
+                        Laravel Breeze, creating vendor folders for custom auth
+                        emails, managing package updates etc.
                       </li>
                       <li className="padding">
-                        Wrote tests for CRUD operations, auth routes, form validation, file uploads/downloads, and levels of user access in PHPunit
+                        Wrote tests for CRUD operations, auth routes, form
+                        validation, file uploads/downloads, and levels of user
+                        access in PHPunit
                       </li>
                       <li className="padding">
                         Created Advanced SQL queries for csv exports
                       </li>
                       <li className="padding">
-                        Refactored website design in Foundation css and added responsive design 
+                        Refactored website design in Foundation css and added
+                        responsive design
                       </li>
                     </ul>
                     {/* </div> */}
@@ -170,11 +197,15 @@ export default function Home() {
                     >
                       <li className="padding">
                         Created an online learning web app for the Clover Hill
-                        High School Orchestra during mandated online learning. Students could create a character,  keep track of
-                        progress, see new assignments, compare progress with other students. Teachers could grade and give student feedback easier as well as monitor class progress.
+                        High School Orchestra during mandated online learning.
+                        Students could create a character, keep track of
+                        progress, see new assignments, compare progress with
+                        other students. Teachers could grade and give student
+                        feedback easier as well as monitor class progress.
                       </li>
                       <li className="padding">
-                        Updated the layout for Madonna Photography with an accessible color scheme and responsive design
+                        Updated the layout for Madonna Photography with an
+                        accessible color scheme and responsive design
                       </li>
                     </ul>
                     {/* </div> */}

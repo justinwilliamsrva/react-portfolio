@@ -17,8 +17,7 @@ export default function Skills() {
             />
             <h3>Front-End</h3>
             <p>
-               Javascript, Vue, React, Bootstrap, Tailwind, Responsive
-              Design{" "}
+             HTML, CSS, JavaScript, jQuery, Vue, React, Bootstrap, Tailwind, Responsive Design
             </p>
           </div>
           <div className="skills-section" id="back-end">
@@ -29,14 +28,14 @@ export default function Skills() {
               src="/server.png"
             />
             <h3>Back-End</h3>
-            <p>Laravel, PHP, MySQL, MongoDB, GraphQL </p>
+            <p>Node, Express, Laravel, PHP, SQL, MongoDB, GraphQL </p>
           </div>
           <div className="skills-section" id="additional">
             <img loading="lazy" alt="list" className="zoom" src="/list.png" />
             <h3>Additional</h3>
             <p>
-              Version Control, TDD, Conventional Commits, Notion,
-              Figma
+            git, Version Control, TDD, Agile, Trello, Slack, Asana
+
             </p>
           </div>
         </div>
