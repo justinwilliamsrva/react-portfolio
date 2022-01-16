@@ -54,25 +54,24 @@ export default function Home() {
             <h2>Biography</h2>
             <p>
               <b>
-                <span className="teal">Full-Stack Web Developer</span> with over
-                ten years of experience in primary and secondary education.
+                <span className="teal">Full-Stack Web Developer</span> based in
+                Richmond, Virginia utilizing Javascript and PHP frameworks.
               </b>
             </p>
             <p>
               <b>
-                I have a <span className="teal">passion</span> for programming
-                and I am gifted at resolving problems and applying new technical
-                skills. As a University of Richmond Coding Boot Camp Graduate, I
-                have the expertise to approach front-end and back-end challenges
-                independently or with a team of AGILE programmers. And as a
-                former educator, I am an experienced presenter whose reliability
-                and communication skills will benefit any workplace environment.
+                Currently working at Ameronix, where I update subscriber
+                dashboards using Vue, Laravel, jQuery and various CSS frameworks. I especially
+                love writing tests, creating responsive designs, and implementing component libraries. In my spare time, I am learning AWS, C#,
+                .NET, Dart, Strapi, and advanced CSS animations.
               </b>
             </p>
             <p>
               <b>
-                I am also a professional violinist who loves to perform whenever
-                I can!
+                My passion for programming and problem solving allow me to thrive working independently or with a team of AGILE
+                programmers. As a former educator, I am also an experienced presenter
+                whose reliability and communication skills will benefit any workplace
+                environment.
               </b>
             </p>
           </div>
@@ -130,16 +129,22 @@ export default function Home() {
                       } padding`}
                     >
                       <li className="padding">
-                        Updated website written in Laravel 5 running PHP 7.1 to Laravel 8 running PHP 8. Involved remaking the auth in Laravel Breeze, creating vendor folders for custom auth emails, managing package updates etc.
+                        Updated website written in Laravel 5 running PHP 7.1 to
+                        Laravel 8 running PHP 8. Involved remaking the auth in
+                        Laravel Breeze, creating vendor folders for custom auth
+                        emails, managing package updates etc.
                       </li>
                       <li className="padding">
-                        Wrote tests for CRUD operations, auth routes, form validation, file uploads/downloads, and levels of user access in PHPunit
+                        Wrote tests for CRUD operations, auth routes, form
+                        validation, file uploads/downloads, and levels of user
+                        access in PHPunit
                       </li>
                       <li className="padding">
                         Created Advanced SQL queries for csv exports
                       </li>
                       <li className="padding">
-                        Refactored website design in Foundation css and added responsive design 
+                        Refactored website design in Foundation css and added
+                        responsive design
                       </li>
                     </ul>
                     {/* </div> */}
@@ -171,11 +176,15 @@ export default function Home() {
                     >
                       <li className="padding">
                         Created an online learning web app for the Clover Hill
-                        High School Orchestra during mandated online learning. Students could create a character,  keep track of
-                        progress, see new assignments, compare progress with other students. Teachers could grade and give student feedback easier as well as monitor class progress.
+                        High School Orchestra during mandated online learning.
+                        Students could create a character, keep track of
+                        progress, see new assignments, compare progress with
+                        other students. Teachers could grade and give student
+                        feedback easier as well as monitor class progress.
                       </li>
                       <li className="padding">
-                        Updated the layout for Madonna Photography with an accessible color scheme and responsive design
+                        Updated the layout for Madonna Photography with an
+                        accessible color scheme and responsive design
                       </li>
                     </ul>
                     {/* </div> */}
