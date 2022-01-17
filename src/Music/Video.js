@@ -9,15 +9,17 @@ export default function Video({ props }) {
         alt={props.song}
         className="image"
       />
-      <h3>
-        {props.song} by {props.composer}{" "}
-      </h3>
       <div className="middle">
+      <h4>{props.date}</h4>
         <a href={props.link} target="_blank" rel="noreferrer" className="text">
           View
         </a>
-        <h4>{props.date}</h4>
+       
       </div>
+       <h3>
+        {props.song} 
+      
+      </h3>
     </div>
   );
 }

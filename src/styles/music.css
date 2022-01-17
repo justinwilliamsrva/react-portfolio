@@ -6,11 +6,13 @@
 #music-videos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 3vw;
 }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 60em) {
   #music-videos {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 3vh;
   }
 }
 
@@ -20,7 +22,7 @@
 }
 
 .music-container h3 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .image {
   opacity: 1;
@@ -29,22 +31,28 @@
   /* height: 720px; */
   transition: 0.5s ease;
   backface-visibility: hidden;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0,0.5);
+  /* height: 50vh; */
+  aspect-ratio: 1.7777 / 1;
+
 }
 
 .middle {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  /* font-size: 0.7rem; */
+
 }
 
 .music-container:hover .image {
-  opacity: 0.3;
+  opacity: 0.08;
+ 
 }
 
 .music-container:hover .middle {
@@ -54,14 +62,27 @@
 .text {
   background-color: var(--primary-bg-color);
 
-  color: var(--primary-text-color);
-  border: 1px var(--primary-bg-color) solid;
-  font-size: 16px;
-  padding: 12px 20px;
+  color: var(--secondary-bg-color);
+  border: 1px var(--secondary-bg-color) solid;
+  font-size: 1rem;
+  padding: 6px 10px;
   text-decoration: none;
   border-radius: 4px;
   font-weight: bold;
 }
 .text:hover {
   background-color: var(--secondary-bg-color);
+  color: var(--primary-bg-color);
+
+}
+@media screen and (max-width: 40em) {
+  .middle, .text{
+
+font-size: .8rem;
+  }
+  .middle{
+
+    width:90%;
+  }
+
 }

@@ -71,7 +71,7 @@ export function ProjectList() {
   return (
     <section id="project-scroll" className="bg-dark">
       <div id="project" className="container">
-        <h2>Projects</h2>
+        <h2>Side Projects</h2>
         <div id="project-div">
           {projects.map((project) => (
             <Project key={project.id} props={project} />

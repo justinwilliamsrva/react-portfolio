@@ -185,7 +185,7 @@ align-items: center;
 }
 
 #job-fcps {
-  height: 350px;
+  height: 250px;
   transition: width 2s, height 450ms, transform 2s;
 }
 #none-fcps {
@@ -197,8 +197,28 @@ align-items: center;
   transition: width 2s, height 600ms, transform 2s;
 }
 #job-ccps {
-  height: 350px;
+  height: 150px;
   transition: width 2s, height 450ms, transform 2s;
+}
+@media screen and (max-width: 1600px) and (min-width: 1401px) {
+  #job-fcps {
+    height: 300px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 250px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+}
+@media screen and (max-width: 1400px) and (min-width: 1261px) {
+  #job-fcps {
+    height: 375px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 250px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
 
 @media screen and (max-width: 1260px) and (min-width: 1170px) {

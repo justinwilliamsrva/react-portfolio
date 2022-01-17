@@ -29,7 +29,7 @@ export default function Header() {
           </li>
           <li>
             <a href="#project-scroll" className="js-smooth-scroll">
-              Side Projects
+              Projects
             </a>
           </li>
          
