@@ -23,15 +23,16 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="#project-scroll" className="js-smooth-scroll">
-              Projects
+            <a href="#music" className="js-smooth-scroll">
+              Work
             </a>
           </li>
           <li>
-            <a href="#music" className="js-smooth-scroll">
-              Music
+            <a href="#project-scroll" className="js-smooth-scroll">
+              Side Projects
             </a>
           </li>
+         
 
           <li>
             <a href="#contact" className="js-smooth-scroll">

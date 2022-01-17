@@ -23,12 +23,20 @@
   overflow: hidden;
   margin-bottom: 30px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--secondary-text-color);
+
+
 }
+
 .project-card:hover,
 .project-card-reverse:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+  background-color: rgb(232, 234, 235);
 
+
+
+ 
+}
 .project-card-reverse,
 .project-card {
   flex-direction: row;
@@ -44,7 +52,6 @@
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  background-color: rgb(232, 234, 235);
 }
 .card-right ul {
   margin-bottom: 2px;

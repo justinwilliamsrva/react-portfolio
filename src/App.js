@@ -13,8 +13,9 @@ function App() {
       <div id="content">
         <Home />
         <Skills />
-        <ProjectList />
         <Music />
+        <ProjectList />
+    
         <Footer />
       </div>
     </div>

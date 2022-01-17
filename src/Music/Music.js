@@ -40,10 +40,10 @@ const videos = [
 
 export default function Music() {
   return (
-    <section className="bg-dark" id="music">
+    <section className="bg-primary" id="music">
       <span id="musics"></span>
       <div className="container">
-        <h2>Music</h2>
+        <h2>Work</h2>
         <div id="music-videos">
           {videos.map((video) => (
             <Video key={video.id} props={video} />
