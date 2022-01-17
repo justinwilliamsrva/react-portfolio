@@ -24,20 +24,10 @@ const projects = [
     link: "https://justinwilliamsrva.github.io/Spirited-Scenery/",
     github: "https://github.com/justinwilliamsrva/Spirited-Scenery",
   },
-  {
-    id: 3,
-    title: "Orchestra RPG",
-    description:
-      "Users can learn technique mandated virtual learning. Students login into their  profile, turn-in assignments, receive teacher feedback, and compare progress to the rest of the class.",
-    img: "rpg-photo.JPG",
-    techs: ["HTML", "CSS", "JavaScript"],
-    link: "https://justinwilliamsrva.github.io/chhsorchestra/orchestra/rpg.html",
-    github:
-      "https://github.com/justinwilliamsrva/chhsorchestra/tree/master/orchestra",
-  },
+ 
 
   {
-    id: 4,
+    id: 3,
     title: "Summer Camp Staff App",
     description:
       "A CRUD app that allows camp organizers and staff to keep track of inventory, manage student records, and communicate with all staff while keeping certain features reserved.",
@@ -47,7 +37,7 @@ const projects = [
     github: "https://github.com/justinwilliamsrva/SummerCampApp",
   },
   {
-    id: 5,
+    id: 4,
     title: "Violin Central",
     description:
       "A CRUD app where authenticated users can access a Violin Book Database and post new entries. Users can also search for lessons plans. ",
@@ -57,7 +47,7 @@ const projects = [
     github: "https://github.com/justinwilliamsrva/Violin-Central",
   },
   {
-    id: 6,
+    id: 5,
     title: "Work Day Scheduler",
     description:
       "A simple calendar app for scheduling your workday while easily switching between hour and half-half increments. ",
@@ -65,6 +55,17 @@ const projects = [
     techs: ["CSS", "JavaScript", "Moment.js"],
     link: "https://justinwilliamsrva.github.io/dailyscheduler/",
     github: "https://github.com/justinwilliamsrva/dailyscheduler",
+  },
+  {
+    id: 6,
+    title: "Weather Tracker",
+    description:
+      "Using the the openWeather API, this dashboard gives the current conditions as well of a five day forecast of desired cities. ",
+    img: "weather.png",
+    techs: ["HTML", "CSS", "JavaScript"],
+    link: "https://justinwilliamsrva.github.io/Weather-Dashboard/",
+    github:
+      "https://github.com/justinwilliamsrva/Weather-Dashboard",
   },
 ];
 export function ProjectList() {
