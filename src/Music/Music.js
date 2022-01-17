@@ -23,7 +23,7 @@ const videos = [
     id: 3,
     song: "Modana Photography",
     composer: "Freelance",
-    date: "Photography website showcasing artist's work, biography, pricing, reviews and form for contact",
+    date: "Photography website showcasing artist's work, biography, pricing, reviews and a form for contact",
     photo: "madona-photography.png",
     link: "http://madonagaliphotography.com/index",
   },
