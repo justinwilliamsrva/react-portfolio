@@ -28,8 +28,9 @@ p {
 
 h1,
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
+h3{font-size: 1.5rem;}
 
 body {
   font-family: var(--ff-primary);
@@ -71,9 +72,7 @@ h3{
   margin-bottom: 2em;
 }
 
-h2{
-  font-size: xx-large;
-}
+
 
 .bg-primary {
   color: var(--primary-text-color);
