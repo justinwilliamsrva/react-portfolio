@@ -197,7 +197,7 @@ align-items: center;
   transition: width 2s, height 600ms, transform 2s;
 }
 #job-ccps {
-  /* height: 60px; */
+  height: 350px;
   transition: width 2s, height 450ms, transform 2s;
 }
 
@@ -220,11 +220,19 @@ align-items: center;
     height: 300px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 200px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
 
 @media screen and (max-width: 1074px) and (min-width: 970px) {
   #job-fcps {
-    height: 300px;
+    height: 275px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 250px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -234,11 +242,19 @@ align-items: center;
     height: 375px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 225px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
 
-@media screen and (max-width: 841px) and (min-width: 801px) {
+@media screen and (max-width: 840px) and (min-width: 801px) {
   #job-fcps {
-    height: 400px;
+    height: 375px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 300px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -247,10 +263,19 @@ align-items: center;
     height: 225px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 150px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+
 }
 @media screen and (max-width: 649px) and (min-width: 550px) {
   #job-fcps {
     height: 250px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 200px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -260,10 +285,18 @@ align-items: center;
     height: 300px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 225px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
 @media screen and (max-width: 489px) and (min-width: 420px) {
   #job-fcps {
     height: 350px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 250px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -281,11 +314,11 @@ align-items: center;
 }
 @media screen and (max-width: 374px) and (min-width: 371px) {
   #job-fcps {
-    height: 470px;
+    height: 425px;
     transition: width 2s, height 450ms, transform 2s;
   }
   #job-ccps {
-    height: 70px;
+    height: 350px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -298,20 +331,11 @@ align-items: center;
 }
 @media screen and (max-width: 339px) and (min-width: 322px) {
   #job-fcps {
-    height: 450px;
+    height: 425px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
-@media screen and (max-width: 321px) and (min-width: 250px) {
-  #job-fcps {
-    height: 500px;
-    transition: width 2s, height 450ms, transform 2s;
-  }
-  #job-ccps {
-    height: 200px;
-    transition: width 2s, height 450ms, transform 2s;
-  }
-}
+
 
 @media screen and (max-width: 321px) and (min-width: 290px) {
   #job-fcps {
@@ -328,10 +352,12 @@ align-items: center;
   #job-fcps {
     height: 700px;
     transition: width 2s, height 450ms, transform 2s;
+  
   }
   #job-ccps {
-    height: 300px;
+    height: 500px;
     transition: width 2s, height 450ms, transform 2s;
+    
   }
 }
 
@@ -342,11 +368,11 @@ align-items: center;
   padding-left: 100px;
   transform: scale(1, 0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
+  transition: transform 250ms ease-in-out;
 }
 .none-list > li {
   opacity: 0;
-  transition: opacity 150ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
 }
 .job-list {
   margin-top: 0;
@@ -354,11 +380,11 @@ align-items: center;
   padding-left: 100px;
   transform: scale(1, 1);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 }
 .job-list > li {
   opacity: 1;
-  transition: opacity 150ms ease-in-out 150ms;
+  transition: opacity 100ms ease-in-out 100ms;
 }
 
 @media screen and (max-width: 1145px) and (min-width: 800px) {
