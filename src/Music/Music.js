@@ -33,7 +33,7 @@ const videos = [
     song: "CHHS Orchestra LMS",
     composer: "Freelance",
     date: "Students can login to profile, turn-in assignments, receive teacher feedback, and compare progress to the rest of the class",
-    photo: "rpg-photo-old.JPG",
+    photo: "rpg-photo-old.jpg",
     link: "https://justinwilliamsrva.github.io/chhsorchestra/orchestra/rpg.html",
   },
 ];
