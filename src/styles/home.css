@@ -149,7 +149,7 @@ align-items: center;
   transform: rotate(90deg);
 }
 
-.resume-button{
+.resume-button {
   background-color: var(--secondary-bg-color);
   color: var(--primary-bg-color);
   /* border: 1px var(--secondary-bg-color) solid; */
@@ -159,15 +159,10 @@ align-items: center;
   padding: 5px 20px;
 
   cursor: pointer;
- 
-
-
 }
 .resume-button:hover {
   /* background-color: var(--primary-bg-color);
   color: var(--secondary-bg-color); */
-
- 
 }
 
 @media screen and (min-width: 900px) {
@@ -184,10 +179,6 @@ align-items: center;
   margin: 0px;
 }
 
-#job-fcps {
-  height: 250px;
-  transition: width 2s, height 450ms, transform 2s;
-}
 #none-fcps {
   height: 0px;
   transition: width 2s, height 600ms, transform 2s;
@@ -196,10 +187,18 @@ align-items: center;
   height: 0px;
   transition: width 2s, height 600ms, transform 2s;
 }
-#job-ccps {
-  height: 150px;
-  transition: width 2s, height 450ms, transform 2s;
+
+@media screen and (min-width: 1402px) {
+  #job-ccps {
+    height: 150px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-fcps {
+    height: 250px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
+
 @media screen and (max-width: 1600px) and (min-width: 1401px) {
   #job-fcps {
     height: 300px;
@@ -226,11 +225,19 @@ align-items: center;
     height: 400px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 300px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
 
 @media screen and (max-width: 1169px) and (min-width: 1146px) {
   #job-fcps {
     height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 350px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -278,6 +285,7 @@ align-items: center;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
+
 @media screen and (max-width: 800px) and (min-width: 650px) {
   #job-fcps {
     height: 225px;
@@ -287,8 +295,8 @@ align-items: center;
     height: 150px;
     transition: width 2s, height 450ms, transform 2s;
   }
-
 }
+
 @media screen and (max-width: 649px) and (min-width: 550px) {
   #job-fcps {
     height: 250px;
@@ -310,6 +318,7 @@ align-items: center;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
+
 @media screen and (max-width: 489px) and (min-width: 420px) {
   #job-fcps {
     height: 350px;
@@ -320,15 +329,25 @@ align-items: center;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
-@media screen and (max-width: 420px) and (min-width: 390px) {
+
+@media screen and (max-width: 419px) and (min-width: 390px) {
   #job-fcps {
     height: 400px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 400px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
+
 @media screen and (max-width: 389px) and (min-width: 375px) {
   #job-fcps {
     height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 375px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -345,17 +364,25 @@ align-items: center;
 
 @media screen and (max-width: 370px) and (min-width: 340px) {
   #job-fcps {
-    height: 400px;
+    height: 450px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
+  #job-ccps {
+    height: 325px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
+
 @media screen and (max-width: 339px) and (min-width: 322px) {
   #job-fcps {
     height: 425px;
     transition: width 2s, height 450ms, transform 2s;
   }
+  #job-ccps {
+    height: 350px;
+    transition: width 2s, height 450ms, transform 2s;
+  }
 }
-
 
 @media screen and (max-width: 321px) and (min-width: 290px) {
   #job-fcps {
@@ -363,7 +390,7 @@ align-items: center;
     transition: width 2s, height 450ms, transform 2s;
   }
   #job-ccps {
-    height: 150px;
+    height: 350px;
     transition: width 2s, height 450ms, transform 2s;
   }
 }
@@ -372,12 +399,10 @@ align-items: center;
   #job-fcps {
     height: 700px;
     transition: width 2s, height 450ms, transform 2s;
-  
   }
   #job-ccps {
     height: 500px;
     transition: width 2s, height 450ms, transform 2s;
-    
   }
 }
 
