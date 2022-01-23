@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [11.2.19](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.18...v11.2.19) (2022-01-23)
+
+
+### Bug Fixes
+
+* changed link of resume ([b28a6bd](https://github.com/justinwilliamsrva/react-portfolio/commit/b28a6bd6724b141da20e4aa0b2062910568287a1))
+
 ### [11.2.18](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.17...v11.2.18) (2022-01-20)
 
 ### [11.2.17](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.16...v11.2.17) (2022-01-20)
