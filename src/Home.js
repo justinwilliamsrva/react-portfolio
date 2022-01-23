@@ -91,7 +91,7 @@ export default function Home() {
                 benefit any workplace environment.
               </b>
             </p>
-            <p><b>Further details of my skills and experience can be found on my <a  href="https://www.notion.so/jwrva/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
+            <p><b>Further details of my skills and experience can be found on my <a  href="https://jwrva.notion.site/Justin-Williams-Resume-b8a9d8bcad28477da2f9d139360ba3db"
               target="_blank"
               rel="noreferrer"
               className="teal">Resume</a>.</b></p>
