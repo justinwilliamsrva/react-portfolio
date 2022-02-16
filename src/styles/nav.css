@@ -131,14 +131,17 @@ nav a:active {
     display: none;
   }
 
+  #navflex{
+    display:flex;
+  }
+
   header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 2fr) 1fr;
+   
     /* margin: 0 5rem; */
   }
 
   .logo {
-    grid-column: 2 / 3;
+   flex:1;
   }
 
   nav {
@@ -151,7 +154,7 @@ nav a:active {
     left: initial;
     /* end Edge support stuff */
 
-    grid-column: 3 / 4;
+    flex: 2;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -187,4 +190,22 @@ nav a:active {
   nav a:hover::before {
     transform: scale(1, 1);
   }
+}
+
+@media screen and (max-width: 959px) and (min-width: 830px){
+nav li{
+
+  margin-left: 1em;
+}
+
+.logo{
+
+flex: 2;
+
+}
+
+
+
+
+
 }
