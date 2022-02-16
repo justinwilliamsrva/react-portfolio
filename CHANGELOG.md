@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [11.2.20](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.19...v11.2.20) (2022-02-16)
+
+
+### Bug Fixes
+
+* fix nav sizing ([529d7fe](https://github.com/justinwilliamsrva/react-portfolio/commit/529d7fef82909e0f6aac877ed32ddbf2e1e9be62))
+
 ### [11.2.19](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.18...v11.2.19) (2022-01-23)
 
 
