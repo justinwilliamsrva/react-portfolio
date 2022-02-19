@@ -74,9 +74,7 @@ export default function Home() {
             </p>
             <p>
               <b>
-                Currently working at Ameronix, where I update subscriber
-                dashboards using Vue, Laravel, jQuery, and various CSS
-                frameworks. I especially love writing tests, creating responsive
+                Currently working at Guidance Residential, where I update the main website using PHP, Laravel and Tailwind. I especially love writing tests, creating responsive
                 designs, and implementing component libraries. In my spare time,
                 I am learning AWS, C#, .NET, Dart, Strapi, and advanced CSS
                 animations.
@@ -133,22 +131,26 @@ export default function Home() {
                 <div className="icon-ex">
                   <img
                     className={`arrow ${isToggledFcps && "rotate"} `}
-                    onClick={() => setIsToggledFcps(!isToggledFcps)}
+                    // onClick={() => setIsToggledFcps(!isToggledFcps)}
+                    onClick={() => setIsToggledFcps(isToggledFcps)}
+
                     src="/Arrow-right.png"
                     alt="arrow right"
                   />
                 </div>
                 <div className="info">
                   <p>
-                    <b>Web Developer</b>
+                    <b>Software Engineer</b>
                   </p>
-                  <p>Ameronix</p>
-                  <div id={isToggledFcps ? "job-fcps" : "none-fcps"}>
-                    <ul
+                  <p>Guidance Residential</p>
+                  {/* <div id={isToggledFcps ? "job-fcps" : "none-fcps"}> */}
+                  <div id="none-fcps">
+                    {/* <ul
                       className={`${
                         isToggledFcps ? "job-list" : "none-list"
                       } padding`}
-                    >
+                    > */}
+                      <ul className="none-list padding">
                       <li className="padding">
                         Updated website written in Laravel 5 running PHP 7.1 to
                         Laravel 8 running PHP 8. Involved remaking the auth in
@@ -179,22 +181,27 @@ export default function Home() {
                 <div className="icon-ex">
                   <img
                     className={`arrow ${isToggledCcps && "rotate"} `}
-                    onClick={() => setIsToggledCcps(!isToggledCcps)}
+                    // onClick={() => setIsToggledCcps(!isToggledCcps)}
+                    onClick={() => setIsToggledCcps(isToggledCcps)}
+
                     src="/Arrow-right.png"
                     alt="arrow right"
                   />
                 </div>
                 <div className="info">
                   <p>
-                    <b>Freelance Developer</b>
+                    <b>Web Developer</b>
                   </p>
-                  <p>Self-Employed</p>
-                  <div id={isToggledCcps ? "job-ccps" : "none-ccps"}>
-                    <ul
+                  <p>Ameronix</p>
+                  {/* <div id={isToggledCcps ? "job-ccps" : "none-ccps"}> */}
+                  <div id= "none-ccps">
+
+                    {/* <ul
                       className={`${
                         isToggledCcps ? "job-list" : "none-list"
                       } padding`}
-                    >
+                    > */}
+                      <ul className="none-list padding">
                       <li className="padding">
                         Created an online learning web app for the Clover Hill
                         High School Orchestra during mandated online learning.
