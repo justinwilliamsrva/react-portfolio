@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.3.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.20...v11.3.0) (2022-02-19)
+
+
+### Features
+
+* updated info for Guidance residential and removed toggle functions ([00d77c8](https://github.com/justinwilliamsrva/react-portfolio/commit/00d77c89cd8bddbcbf798435bab0b30154643728))
+
 ### [11.2.20](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.19...v11.2.20) (2022-02-16)
 
 
