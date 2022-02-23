@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [11.4.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.3.0...v11.4.0) (2022-02-23)
+
+
+### Features
+
+* nav closes when a link is clicked ([5b6c97c](https://github.com/justinwilliamsrva/react-portfolio/commit/5b6c97c291c3e0ca9a071e20d108c292e144c3db))
+
 ## [11.3.0](https://github.com/justinwilliamsrva/react-portfolio/compare/v11.2.20...v11.3.0) (2022-02-19)
 
 
