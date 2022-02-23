@@ -2,6 +2,15 @@ import React from "react";
 import "./styles/nav.css";
 
 export default function Header() {
+
+
+function hello(){
+
+  document.getElementById("nav-toggle").checked = false;
+
+}
+
+
   return (
     <header>
       <div id="navflex" className="container">
@@ -11,7 +20,7 @@ export default function Header() {
           </a>
         </h1>
         <input type="checkbox" id="nav-toggle" className="nav-toggle" />
-        <nav>
+        <nav onClick={hello} >
           <ul>
             <li>
               <a href="#content" className="js-smooth-scroll">
