@@ -25,7 +25,7 @@ const videos = [
     composer: "Freelance",
     date: "Photography website showcasing artist's work, biography, pricing, reviews and a form for contact",
     photo: "madona-photography.png",
-    link: "http://madonagaliphotography.com/index",
+    link: "https://www.madonagaliphotography.com",
   },
 
   {
