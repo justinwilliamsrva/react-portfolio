@@ -5,7 +5,7 @@
   Justin Williams React Portfolio
 </h1>
 
-<a class="button" href="https://justinwilliamsrva.github.io/react-portfolio"><h3  align="center" p-style="border-bottom:none;margin:0 ">View Website </h3></a>
+<a class="button" href="justinwdev.com"><h3  align="center" p-style="border-bottom:none;margin:0 ">View Website </h3></a>
 
 <div align="center"><a name="menu"></a>
   <h4>
